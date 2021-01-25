@@ -11,12 +11,13 @@ class HomeViewController: UIViewController{
     @IBOutlet weak var homeTableView: UITableView!
     
     var home: [RowItem] = []
+    var rowSelected : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Home"
         
-        let data = DataLoader(jsonFileName: K.homeJsonFile).appData
+        let data = DataLoader(rowSelected: "Home").appData
         
         for i in 0..<data.count{
             home.append(RowItem(dari: data[i].dari , english: data[i].english  , image: data[i].image   , sound: data[i].sound))
@@ -26,28 +27,29 @@ class HomeViewController: UIViewController{
         homeTableView.dataSource = self
         homeTableView.register(UINib(nibName: "ReusableTableViewCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        if let selectionIndexPath = self.homeTableView.indexPathForSelectedRow {
+            self.homeTableView.deselectRow(at: selectionIndexPath, animated: animated)
+        }
+    }
 }
 
 
 extension HomeViewController: UITableViewDelegate{
     func tableView(_ homeTableView: UITableView, didSelectRowAt indexPath: IndexPath){
-        homeTableView.deselectRow(at: indexPath, animated: true)
-        
-        let scene = indexPath.row
-        switch scene{
-            case 0:
-                performSegue(withIdentifier: "HomeToAlphabet", sender: self)
-            case 1:
-                performSegue(withIdentifier: "HomeToNumbers", sender: self)
-            case 2:
-                performSegue(withIdentifier: "HomeToGreetings", sender: self)
-            case 3:
-                performSegue(withIdentifier: "HomeToPronouns", sender: self)
-            case 4:
-                performSegue(withIdentifier: "HomeToDays", sender: self)
-            default:
-                performSegue(withIdentifier: "HomeToAlphabet", sender: self)
-        }
+//        rowSelected = homeTableView.deselectRow(at: indexPath, animated: true)
+        let currentCell = homeTableView.cellForRow(at: indexPath)! as! ReusableTableViewCell
+        rowSelected = currentCell.english!.text!
+        performSegue(withIdentifier: "HomeToData", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! DataViewController
+        vc.rowSelected = self.rowSelected
+
     }
 }
 

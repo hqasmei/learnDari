@@ -8,41 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Alphabet-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="AlphabetViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ssA-V6-0Va">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="ssA-V6-0Va" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-83" id="1u4-52-k7B"/>
-                            <constraint firstItem="ssA-V6-0Va" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="22O-Z8-ef1"/>
-                            <constraint firstItem="ssA-V6-0Va" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Jzp-Wb-wBv"/>
-                            <constraint firstItem="ssA-V6-0Va" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="PcG-1y-dPH"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Alphabet" id="X6X-Gg-KUF"/>
-                    <navigationItem key="navigationItem" id="PJx-LL-ARx"/>
-                    <connections>
-                        <outlet property="tableView" destination="ssA-V6-0Va" id="Lg1-Tn-Qic"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3496" y="2402"/>
-        </scene>
         <!--Home View Controller-->
         <scene sceneID="YhL-df-AYp">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fnD-Xs-JyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="gMw-Sq-ZLt" customClass="HomeViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibe-lz-A5L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -65,16 +34,42 @@
                     <navigationItem key="navigationItem" id="BE0-UL-mvj"/>
                     <connections>
                         <outlet property="homeTableView" destination="Dvg-wO-2BS" id="Ksd-dM-nXc"/>
-                        <segue destination="S32-6w-Yx9" kind="show" identifier="HomeToNumbers" id="ZkO-kH-bMD"/>
-                        <segue destination="aZu-k3-dUe" kind="show" identifier="HomeToGreetings" id="bBc-jw-CDa"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="HomeToAlphabet" id="bnX-ET-7y8"/>
-                        <segue destination="fjI-31-8x3" kind="show" identifier="HomeToPronouns" id="B3x-0y-sBD"/>
-                        <segue destination="a0B-xI-ZPB" kind="show" identifier="HomeToDays" id="fC7-yi-4kK"/>
+                        <segue destination="2fh-ak-M3q" kind="show" identifier="HomeToData" id="bXY-HR-EDB"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fnD-Xs-JyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="80" y="1583"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="ANd-Qp-BGK">
+            <objects>
+                <viewController id="2fh-ak-M3q" customClass="DataViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bmg-s0-38D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2l4-TO-Sq0">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="t04-0f-KVF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2l4-TO-Sq0" secondAttribute="trailing" id="3gf-0N-Cac"/>
+                            <constraint firstAttribute="bottom" secondItem="2l4-TO-Sq0" secondAttribute="bottom" constant="83" id="Ghf-pp-1Mz"/>
+                            <constraint firstItem="2l4-TO-Sq0" firstAttribute="top" secondItem="Bmg-s0-38D" secondAttribute="top" constant="88" id="OxP-sJ-cQj"/>
+                            <constraint firstItem="2l4-TO-Sq0" firstAttribute="leading" secondItem="Bmg-s0-38D" secondAttribute="leading" id="qt2-Ne-bnU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qab-Ho-BzZ"/>
+                    <connections>
+                        <outlet property="tableView" destination="2l4-TO-Sq0" id="Oqj-sq-KvG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kag-2L-aGb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80" y="2330"/>
         </scene>
         <!--Info-->
         <scene sceneID="ceN-fC-wYG">
@@ -111,130 +106,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q97-vB-vRS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1039.1304347826087" y="101.78571428571428"/>
-        </scene>
-        <!--Numbers View Controller-->
-        <scene sceneID="43V-ye-gCl">
-            <objects>
-                <viewController id="S32-6w-Yx9" customClass="NumbersViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4qs-r9-W12">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yj4-dL-7NG">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Nu7-Oc-xSX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Yj4-dL-7NG" firstAttribute="trailing" secondItem="4qs-r9-W12" secondAttribute="trailing" id="EoY-mm-cai"/>
-                            <constraint firstItem="Yj4-dL-7NG" firstAttribute="leading" secondItem="4qs-r9-W12" secondAttribute="leading" id="PCq-fi-24L"/>
-                            <constraint firstItem="Yj4-dL-7NG" firstAttribute="top" secondItem="4qs-r9-W12" secondAttribute="top" constant="88" id="Uo2-D2-cAe"/>
-                            <constraint firstItem="Yj4-dL-7NG" firstAttribute="bottom" secondItem="4qs-r9-W12" secondAttribute="bottom" constant="-83" id="nKj-3A-g8Q"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="c2E-Ac-dZh"/>
-                    <connections>
-                        <outlet property="tableView" destination="Yj4-dL-7NG" id="odj-MX-egN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZLP-FH-hej" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2600" y="2402"/>
-        </scene>
-        <!--Greetings View Controller-->
-        <scene sceneID="ucQ-7m-iSo">
-            <objects>
-                <viewController id="aZu-k3-dUe" customClass="GreetingsViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZOd-5e-R7F">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="E1y-yQ-4nQ">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="M42-dL-k3d"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="E1y-yQ-4nQ" firstAttribute="trailing" secondItem="ZOd-5e-R7F" secondAttribute="trailing" id="0MM-jC-pL9"/>
-                            <constraint firstItem="E1y-yQ-4nQ" firstAttribute="top" secondItem="ZOd-5e-R7F" secondAttribute="top" constant="88" id="3BT-U0-yBB"/>
-                            <constraint firstItem="E1y-yQ-4nQ" firstAttribute="bottom" secondItem="ZOd-5e-R7F" secondAttribute="bottom" constant="-83" id="agO-WG-iJK"/>
-                            <constraint firstItem="E1y-yQ-4nQ" firstAttribute="leading" secondItem="ZOd-5e-R7F" secondAttribute="leading" id="svv-Sa-702"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="dBe-yW-Bko"/>
-                    <connections>
-                        <outlet property="tableView" destination="E1y-yQ-4nQ" id="IhO-WC-sHC"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Lw-2e-2Hm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1548" y="2402"/>
-        </scene>
-        <!--Pronouns View Controller-->
-        <scene sceneID="EC8-7q-QL0">
-            <objects>
-                <viewController id="fjI-31-8x3" customClass="PronounsViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zFR-ue-R9L">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zsH-F3-m83">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="gjY-EP-SWg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="zsH-F3-m83" firstAttribute="top" secondItem="zFR-ue-R9L" secondAttribute="top" constant="88" id="8IP-m6-QG6"/>
-                            <constraint firstItem="zsH-F3-m83" firstAttribute="trailing" secondItem="zFR-ue-R9L" secondAttribute="trailing" id="EQK-rX-cnR"/>
-                            <constraint firstItem="zsH-F3-m83" firstAttribute="leading" secondItem="zFR-ue-R9L" secondAttribute="leading" id="OdU-ft-7Bj"/>
-                            <constraint firstItem="zsH-F3-m83" firstAttribute="bottom" secondItem="zFR-ue-R9L" secondAttribute="bottom" constant="-83" id="bbX-6a-wZO"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="knu-1X-42a"/>
-                    <connections>
-                        <outlet property="tableView" destination="zsH-F3-m83" id="Vfa-Nz-c7g"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="85a-LB-0Zm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-606" y="2402"/>
-        </scene>
-        <!--Days View Controller-->
-        <scene sceneID="4yW-aj-vtu">
-            <objects>
-                <viewController id="a0B-xI-ZPB" customClass="DaysViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="11L-dV-4G5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Niv-c2-5PC">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="YIX-IX-exE"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Niv-c2-5PC" secondAttribute="trailing" id="5BM-wj-1mG"/>
-                            <constraint firstItem="Niv-c2-5PC" firstAttribute="top" secondItem="11L-dV-4G5" secondAttribute="top" constant="88" id="DhB-fy-TP6"/>
-                            <constraint firstItem="Niv-c2-5PC" firstAttribute="leading" secondItem="11L-dV-4G5" secondAttribute="leading" id="I31-4Y-N6X"/>
-                            <constraint firstAttribute="bottom" secondItem="Niv-c2-5PC" secondAttribute="bottom" constant="83" id="JT9-bf-Xe7"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="aoR-7P-NP6"/>
-                    <connections>
-                        <outlet property="tableView" destination="Niv-c2-5PC" id="NHF-e1-1rb"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wdd-Aw-0M0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="316" y="2401"/>
         </scene>
         <!--Home-->
         <scene sceneID="fzm-qo-g59">

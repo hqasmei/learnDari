@@ -10,16 +10,15 @@ import Foundation
 public class DataLoader {
     
     @Published var appData = [AppData]()
+    let rowSelected: String
     
-    let jsonFileName: String
-    
-    init(jsonFileName: String) {
-        self.jsonFileName = jsonFileName
-        load(jsonFileName: self.jsonFileName)
-//        sort()
+    init(rowSelected: String) {
+        self.rowSelected = rowSelected
+        load(rowSelected: self.rowSelected)
     }
     
-    func load(jsonFileName: String){
+    func load(rowSelected: String){
+        let jsonFileName = selectData(rowSelected: rowSelected)
         
         if let fileLocation = Bundle.main.url(forResource: jsonFileName, withExtension: "json"){
             
@@ -28,20 +27,31 @@ public class DataLoader {
                 let data         = try Data(contentsOf: fileLocation)
                 let jsonDecoder  = JSONDecoder()
                 let dataFromJson = try jsonDecoder.decode([AppData].self, from: data)
-
                 self.appData     = dataFromJson
-                
             }
-            
             catch{
                 print("Error")
             }
         }
     }
     
-//    func sort(){
-//        self.userData = self.appData.sorted(by: <#T##(AppData, AppData) throws -> Bool#>)
-//    }
-//
-    
+    func selectData(rowSelected: String) -> String{
+        switch rowSelected {
+        case "Alphabet":
+            return K.alphabetJsonFile
+        case "Numbers":
+            return K.numbersJsonFile
+        case "Greetings":
+            return K.greetingsJsonFile
+        case "Pronouns":
+            return K.pronounsJsonFile
+        case "Days":
+            return K.daysJsonFile
+        case "Home":
+            return K.homeJsonFile
+        default:
+            return K.homeJsonFile
+        }
+    }
+
 }

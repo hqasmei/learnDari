@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0820DA0425BAA9D1006758BE /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA0325BAA9D1006758BE /* GreetingsViewController.swift */; };
 		0820DA1C25BAB169006758BE /* RowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA1B25BAB169006758BE /* RowItem.swift */; };
 		0820DA4125BCFF9B006758BE /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA4025BCFF9B006758BE /* AppData.swift */; };
 		0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA4325BCFFD6006758BE /* DataLoader.swift */; };
@@ -38,7 +37,6 @@
 		0820DA9B25BE7886006758BE /* ao.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9525BE7886006758BE /* ao.png */; };
 		0820DA9C25BE7886006758BE /* shuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9625BE7886006758BE /* shuma.png */; };
 		0820DA9F25BE7891006758BE /* pronounsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9E25BE7891006758BE /* pronounsData.json */; };
-		0820DAA225BE7A20006758BE /* PronounsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DAA125BE7A20006758BE /* PronounsViewController.swift */; };
 		08777DD825BF42F600E2725B /* daysData.json in Resources */ = {isa = PBXBuildFile; fileRef = 08777DD725BF42F600E2725B /* daysData.json */; };
 		08777DE525BF453E00E2725B /* doshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DDD25BF453D00E2725B /* doshanbeh.png */; };
 		08777DE625BF453E00E2725B /* juma.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DDE25BF453D00E2725B /* juma.png */; };
@@ -47,16 +45,15 @@
 		08777DEA25BF453E00E2725B /* yakshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE225BF453E00E2725B /* yakshanbeh.png */; };
 		08777DEB25BF453E00E2725B /* panjshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE325BF453E00E2725B /* panjshanbeh.png */; };
 		08777DEC25BF453E00E2725B /* charshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE425BF453E00E2725B /* charshanbeh.png */; };
-		08777DF025BF460600E2725B /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777DEF25BF460600E2725B /* DaysViewController.swift */; };
 		08777DF925BF498C00E2725B /* rozhai.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DF825BF498C00E2725B /* rozhai.png */; };
 		08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */; };
 		08777E0125BF4FBD00E2725B /* ReusableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */; };
+		08777E0725BF5E3900E2725B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E0625BF5E3900E2725B /* DataViewController.swift */; };
 		08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531325B63DFF00E8E778 /* AppDelegate.swift */; };
 		08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531525B63DFF00E8E778 /* SceneDelegate.swift */; };
 		08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531925B63DFF00E8E778 /* Main.storyboard */; };
 		08CA531D25B63E0000E8E778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531C25B63E0000E8E778 /* Assets.xcassets */; };
 		08CA532025B63E0000E8E778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531E25B63E0000E8E778 /* LaunchScreen.storyboard */; };
-		08CA532E25B63EF000E8E778 /* AlphabetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA532D25B63EF000E8E778 /* AlphabetViewController.swift */; };
 		08CA534925B644B500E8E778 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA534825B644B500E8E778 /* Constants.swift */; };
 		08CA535E25B6792500E8E778 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA535D25B6792500E8E778 /* HomeViewController.swift */; };
 		08CA536625B67E5D00E8E778 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA536525B67E5D00E8E778 /* InfoViewController.swift */; };
@@ -92,7 +89,6 @@
 		08CA544125B8D67400E8E778 /* suwaat.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA542225B8D67400E8E778 /* suwaat.png */; };
 		08CA544225B8D67400E8E778 /* zuwaat.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA542325B8D67400E8E778 /* zuwaat.png */; };
 		08CA544525B8D93F00E8E778 /* chay.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA544425B8D93E00E8E778 /* chay.png */; };
-		08CA546225B9026300E8E778 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA546125B9026300E8E778 /* NumbersViewController.swift */; };
 		08CA54FE25B93DC100E8E778 /* nozdah.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA54E725B93DC100E8E778 /* nozdah.png */; };
 		08CA54FF25B93DC100E8E778 /* panzdah.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA54E825B93DC100E8E778 /* panzdah.png */; };
 		08CA550025B93DC100E8E778 /* yazdeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA54E925B93DC100E8E778 /* yazdeh.png */; };
@@ -134,7 +130,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0820DA0325BAA9D1006758BE /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
 		0820DA1B25BAB169006758BE /* RowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItem.swift; sourceTree = "<group>"; };
 		0820DA4025BCFF9B006758BE /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		0820DA4325BCFFD6006758BE /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -165,7 +160,6 @@
 		0820DA9525BE7886006758BE /* ao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ao.png; path = learnDari/Images/Pronouns/ao.png; sourceTree = SOURCE_ROOT; };
 		0820DA9625BE7886006758BE /* shuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuma.png; path = learnDari/Images/Pronouns/shuma.png; sourceTree = SOURCE_ROOT; };
 		0820DA9E25BE7891006758BE /* pronounsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pronounsData.json; sourceTree = "<group>"; };
-		0820DAA125BE7A20006758BE /* PronounsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsViewController.swift; sourceTree = "<group>"; };
 		08777DD725BF42F600E2725B /* daysData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = daysData.json; sourceTree = "<group>"; };
 		08777DDD25BF453D00E2725B /* doshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doshanbeh.png; sourceTree = "<group>"; };
 		08777DDE25BF453D00E2725B /* juma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juma.png; sourceTree = "<group>"; };
@@ -174,10 +168,10 @@
 		08777DE225BF453E00E2725B /* yakshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yakshanbeh.png; sourceTree = "<group>"; };
 		08777DE325BF453E00E2725B /* panjshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panjshanbeh.png; sourceTree = "<group>"; };
 		08777DE425BF453E00E2725B /* charshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charshanbeh.png; sourceTree = "<group>"; };
-		08777DEF25BF460600E2725B /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
 		08777DF825BF498C00E2725B /* rozhai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rozhai.png; path = learnDari/Images/Home/rozhai.png; sourceTree = SOURCE_ROOT; };
 		08777DFD25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/ReusableTableViewCell.swift; sourceTree = "<group>"; };
 		08777DFF25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReusableTableViewCell.xib; sourceTree = "<group>"; };
+		08777E0625BF5E3900E2725B /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		08CA531025B63DFF00E8E778 /* learnDari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnDari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA531325B63DFF00E8E778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA531525B63DFF00E8E778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,7 +179,6 @@
 		08CA531C25B63E0000E8E778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08CA531F25B63E0000E8E778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08CA532125B63E0000E8E778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08CA532D25B63EF000E8E778 /* AlphabetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetViewController.swift; sourceTree = "<group>"; };
 		08CA534825B644B500E8E778 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		08CA535D25B6792500E8E778 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		08CA536525B67E5D00E8E778 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
@@ -221,7 +214,6 @@
 		08CA542225B8D67400E8E778 /* suwaat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suwaat.png; sourceTree = "<group>"; };
 		08CA542325B8D67400E8E778 /* zuwaat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuwaat.png; sourceTree = "<group>"; };
 		08CA544425B8D93E00E8E778 /* chay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chay.png; sourceTree = "<group>"; };
-		08CA546125B9026300E8E778 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		08CA54E725B93DC100E8E778 /* nozdah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nozdah.png; sourceTree = "<group>"; };
 		08CA54E825B93DC100E8E778 /* panzdah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panzdah.png; sourceTree = "<group>"; };
 		08CA54E925B93DC100E8E778 /* yazdeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yazdeh.png; sourceTree = "<group>"; };
@@ -385,11 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				08CA535D25B6792500E8E778 /* HomeViewController.swift */,
-				08CA532D25B63EF000E8E778 /* AlphabetViewController.swift */,
-				08CA546125B9026300E8E778 /* NumbersViewController.swift */,
-				0820DA0325BAA9D1006758BE /* GreetingsViewController.swift */,
-				0820DAA125BE7A20006758BE /* PronounsViewController.swift */,
-				08777DEF25BF460600E2725B /* DaysViewController.swift */,
+				08777E0625BF5E3900E2725B /* DataViewController.swift */,
 				08CA536525B67E5D00E8E778 /* InfoViewController.swift */,
 			);
 			path = Controller;
@@ -689,17 +677,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08CA532E25B63EF000E8E778 /* AlphabetViewController.swift in Sources */,
-				0820DAA225BE7A20006758BE /* PronounsViewController.swift in Sources */,
 				08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */,
 				08CA535E25B6792500E8E778 /* HomeViewController.swift in Sources */,
+				08777E0725BF5E3900E2725B /* DataViewController.swift in Sources */,
 				0820DA4125BCFF9B006758BE /* AppData.swift in Sources */,
-				0820DA0425BAA9D1006758BE /* GreetingsViewController.swift in Sources */,
 				08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */,
 				08CA534925B644B500E8E778 /* Constants.swift in Sources */,
-				08777DF025BF460600E2725B /* DaysViewController.swift in Sources */,
 				0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */,
-				08CA546225B9026300E8E778 /* NumbersViewController.swift in Sources */,
 				08CA536625B67E5D00E8E778 /* InfoViewController.swift in Sources */,
 				08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */,
 				0820DA1C25BAB169006758BE /* RowItem.swift in Sources */,
