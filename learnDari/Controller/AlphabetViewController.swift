@@ -38,8 +38,8 @@ extension AlphabetViewController: UITableViewDataSource{
         
         cell.dari.text       = letters[indexPath.row].dari
         cell.english.text    = letters[indexPath.row].english
-        cell.imageItem.image =  UIImage(named: letters[indexPath.row].image)
-        
+        cell.imageItem.image = letters[indexPath.row].resizeImage(image: UIImage(named: letters[indexPath.row].image)!, targetSize: CGSize(width: 50, height: 50))
+    
         return cell
     }
 }

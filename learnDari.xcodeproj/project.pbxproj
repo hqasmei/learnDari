@@ -11,17 +11,36 @@
 		0820DA1725BAADEF006758BE /* ReusableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA1525BAADEF006758BE /* ReusableTableViewCell.swift */; };
 		0820DA1825BAADEF006758BE /* ReusableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA1625BAADEF006758BE /* ReusableTableViewCell.xib */; };
 		0820DA1C25BAB169006758BE /* RowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA1B25BAB169006758BE /* RowItem.swift */; };
-		0820DA3425BB85B5006758BE /* Tashakor.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA3025BB85B4006758BE /* Tashakor.png */; };
-		0820DA3525BB85B5006758BE /* Chetor asten?.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA3125BB85B5006758BE /* Chetor asten?.png */; };
-		0820DA3625BB85B5006758BE /* Salaam alaikum.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA3225BB85B5006758BE /* Salaam alaikum.png */; };
-		0820DA3725BB85B5006758BE /* Khob astum.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA3325BB85B5006758BE /* Khob astum.png */; };
-		0820DA3E25BB874B006758BE /* tahneyat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA3D25BB874B006758BE /* tahneyat.png */; };
 		0820DA4125BCFF9B006758BE /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA4025BCFF9B006758BE /* AppData.swift */; };
 		0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA4325BCFFD6006758BE /* DataLoader.swift */; };
 		0820DA6325BE129C006758BE /* homeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA5F25BE129C006758BE /* homeData.json */; };
 		0820DA6425BE129C006758BE /* numbersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6025BE129C006758BE /* numbersData.json */; };
 		0820DA6525BE129C006758BE /* greetingsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6125BE129C006758BE /* greetingsData.json */; };
 		0820DA6625BE129C006758BE /* alphabetData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6225BE129C006758BE /* alphabetData.json */; };
+		0820DA7525BE7338006758BE /* Khob astum.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6925BE7338006758BE /* Khob astum.png */; };
+		0820DA7625BE7338006758BE /* Name man ... ast.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6A25BE7338006758BE /* Name man ... ast.png */; };
+		0820DA7725BE7338006758BE /* Chast bakhir.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6B25BE7338006758BE /* Chast bakhir.png */; };
+		0820DA7825BE7338006758BE /* Salaam alaikum.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6C25BE7338006758BE /* Salaam alaikum.png */; };
+		0820DA7925BE7338006758BE /* Shab bakhir.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6D25BE7338006758BE /* Shab bakhir.png */; };
+		0820DA7A25BE7338006758BE /* Sobh bakhir.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6E25BE7338006758BE /* Sobh bakhir.png */; };
+		0820DA7B25BE7338006758BE /* Chetor asten?.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA6F25BE7338006758BE /* Chetor asten?.png */; };
+		0820DA7C25BE7338006758BE /* Ahale kaja hasted?.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA7025BE7338006758BE /* Ahale kaja hasted?.png */; };
+		0820DA7D25BE7338006758BE /* Nametan cist?.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA7125BE7338006758BE /* Nametan cist?.png */; };
+		0820DA7E25BE7338006758BE /* Khuda hafez.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA7225BE7338006758BE /* Khuda hafez.png */; };
+		0820DA7F25BE7338006758BE /* Tashakor.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA7325BE7338006758BE /* Tashakor.png */; };
+		0820DA8025BE7338006758BE /* Man ... hastam.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA7425BE7338006758BE /* Man ... hastam.png */; };
+		0820DA8C25BE787C006758BE /* zemayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA8825BE787C006758BE /* zemayer.png */; };
+		0820DA8D25BE787C006758BE /* addad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA8925BE787C006758BE /* addad.png */; };
+		0820DA8E25BE787C006758BE /* tahneyat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA8A25BE787C006758BE /* tahneyat.png */; };
+		0820DA8F25BE787C006758BE /* huruf.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA8B25BE787C006758BE /* huruf.png */; };
+		0820DA9725BE7886006758BE /* anha.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9125BE7886006758BE /* anha.png */; };
+		0820DA9825BE7886006758BE /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9225BE7886006758BE /* man.png */; };
+		0820DA9925BE7886006758BE /* to.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9325BE7886006758BE /* to.png */; };
+		0820DA9A25BE7886006758BE /* ma.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9425BE7886006758BE /* ma.png */; };
+		0820DA9B25BE7886006758BE /* ao.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9525BE7886006758BE /* ao.png */; };
+		0820DA9C25BE7886006758BE /* shuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9625BE7886006758BE /* shuma.png */; };
+		0820DA9F25BE7891006758BE /* pronounsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9E25BE7891006758BE /* pronounsData.json */; };
+		0820DAA225BE7A20006758BE /* PronounsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DAA125BE7A20006758BE /* PronounsViewController.swift */; };
 		08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531325B63DFF00E8E778 /* AppDelegate.swift */; };
 		08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531525B63DFF00E8E778 /* SceneDelegate.swift */; };
 		08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531925B63DFF00E8E778 /* Main.storyboard */; };
@@ -102,8 +121,6 @@
 		08CA553125B940AA00E8E778 /* bist o shash.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA552225B940AA00E8E778 /* bist o shash.png */; };
 		08CA553225B940AA00E8E778 /* bist o se.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA552325B940AA00E8E778 /* bist o se.png */; };
 		08CA553325B940AA00E8E778 /* chehel.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA552425B940AA00E8E778 /* chehel.png */; };
-		08CA554925B9683700E8E778 /* huruf.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA554725B9683700E8E778 /* huruf.png */; };
-		08CA555025B9696700E8E778 /* addad.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CA554F25B9696700E8E778 /* addad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,17 +128,36 @@
 		0820DA1525BAADEF006758BE /* ReusableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewCell.swift; sourceTree = "<group>"; };
 		0820DA1625BAADEF006758BE /* ReusableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableTableViewCell.xib; sourceTree = "<group>"; };
 		0820DA1B25BAB169006758BE /* RowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItem.swift; sourceTree = "<group>"; };
-		0820DA3025BB85B4006758BE /* Tashakor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tashakor.png; path = learnDari/Images/Greetings/Tashakor.png; sourceTree = SOURCE_ROOT; };
-		0820DA3125BB85B5006758BE /* Chetor asten?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chetor asten?.png"; path = "learnDari/Images/Greetings/Chetor asten?.png"; sourceTree = SOURCE_ROOT; };
-		0820DA3225BB85B5006758BE /* Salaam alaikum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Salaam alaikum.png"; path = "learnDari/Images/Greetings/Salaam alaikum.png"; sourceTree = SOURCE_ROOT; };
-		0820DA3325BB85B5006758BE /* Khob astum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Khob astum.png"; path = "learnDari/Images/Greetings/Khob astum.png"; sourceTree = SOURCE_ROOT; };
-		0820DA3D25BB874B006758BE /* tahneyat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tahneyat.png; sourceTree = "<group>"; };
 		0820DA4025BCFF9B006758BE /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		0820DA4325BCFFD6006758BE /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		0820DA5F25BE129C006758BE /* homeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeData.json; sourceTree = "<group>"; };
 		0820DA6025BE129C006758BE /* numbersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numbersData.json; sourceTree = "<group>"; };
 		0820DA6125BE129C006758BE /* greetingsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = greetingsData.json; sourceTree = "<group>"; };
 		0820DA6225BE129C006758BE /* alphabetData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = alphabetData.json; sourceTree = "<group>"; };
+		0820DA6925BE7338006758BE /* Khob astum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Khob astum.png"; path = "learnDari/Images/Greetings/Khob astum.png"; sourceTree = SOURCE_ROOT; };
+		0820DA6A25BE7338006758BE /* Name man ... ast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Name man ... ast.png"; path = "learnDari/Images/Greetings/Name man ... ast.png"; sourceTree = SOURCE_ROOT; };
+		0820DA6B25BE7338006758BE /* Chast bakhir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chast bakhir.png"; path = "learnDari/Images/Greetings/Chast bakhir.png"; sourceTree = SOURCE_ROOT; };
+		0820DA6C25BE7338006758BE /* Salaam alaikum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Salaam alaikum.png"; path = "learnDari/Images/Greetings/Salaam alaikum.png"; sourceTree = SOURCE_ROOT; };
+		0820DA6D25BE7338006758BE /* Shab bakhir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Shab bakhir.png"; path = "learnDari/Images/Greetings/Shab bakhir.png"; sourceTree = SOURCE_ROOT; };
+		0820DA6E25BE7338006758BE /* Sobh bakhir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sobh bakhir.png"; path = "learnDari/Images/Greetings/Sobh bakhir.png"; sourceTree = SOURCE_ROOT; };
+		0820DA6F25BE7338006758BE /* Chetor asten?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chetor asten?.png"; path = "learnDari/Images/Greetings/Chetor asten?.png"; sourceTree = SOURCE_ROOT; };
+		0820DA7025BE7338006758BE /* Ahale kaja hasted?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ahale kaja hasted?.png"; path = "learnDari/Images/Greetings/Ahale kaja hasted?.png"; sourceTree = SOURCE_ROOT; };
+		0820DA7125BE7338006758BE /* Nametan cist?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Nametan cist?.png"; path = "learnDari/Images/Greetings/Nametan cist?.png"; sourceTree = SOURCE_ROOT; };
+		0820DA7225BE7338006758BE /* Khuda hafez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Khuda hafez.png"; path = "learnDari/Images/Greetings/Khuda hafez.png"; sourceTree = SOURCE_ROOT; };
+		0820DA7325BE7338006758BE /* Tashakor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tashakor.png; path = learnDari/Images/Greetings/Tashakor.png; sourceTree = SOURCE_ROOT; };
+		0820DA7425BE7338006758BE /* Man ... hastam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Man ... hastam.png"; path = "learnDari/Images/Greetings/Man ... hastam.png"; sourceTree = SOURCE_ROOT; };
+		0820DA8825BE787C006758BE /* zemayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zemayer.png; path = learnDari/Images/Home/zemayer.png; sourceTree = SOURCE_ROOT; };
+		0820DA8925BE787C006758BE /* addad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addad.png; path = learnDari/Images/Home/addad.png; sourceTree = SOURCE_ROOT; };
+		0820DA8A25BE787C006758BE /* tahneyat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tahneyat.png; path = learnDari/Images/Home/tahneyat.png; sourceTree = SOURCE_ROOT; };
+		0820DA8B25BE787C006758BE /* huruf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huruf.png; path = learnDari/Images/Home/huruf.png; sourceTree = SOURCE_ROOT; };
+		0820DA9125BE7886006758BE /* anha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anha.png; path = learnDari/Images/Pronouns/anha.png; sourceTree = SOURCE_ROOT; };
+		0820DA9225BE7886006758BE /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man.png; path = learnDari/Images/Pronouns/man.png; sourceTree = SOURCE_ROOT; };
+		0820DA9325BE7886006758BE /* to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = to.png; path = learnDari/Images/Pronouns/to.png; sourceTree = SOURCE_ROOT; };
+		0820DA9425BE7886006758BE /* ma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ma.png; path = learnDari/Images/Pronouns/ma.png; sourceTree = SOURCE_ROOT; };
+		0820DA9525BE7886006758BE /* ao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ao.png; path = learnDari/Images/Pronouns/ao.png; sourceTree = SOURCE_ROOT; };
+		0820DA9625BE7886006758BE /* shuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuma.png; path = learnDari/Images/Pronouns/shuma.png; sourceTree = SOURCE_ROOT; };
+		0820DA9E25BE7891006758BE /* pronounsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pronounsData.json; sourceTree = "<group>"; };
+		0820DAA125BE7A20006758BE /* PronounsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsViewController.swift; sourceTree = "<group>"; };
 		08CA531025B63DFF00E8E778 /* learnDari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnDari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA531325B63DFF00E8E778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA531525B63DFF00E8E778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -204,8 +240,6 @@
 		08CA552225B940AA00E8E778 /* bist o shash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bist o shash.png"; sourceTree = "<group>"; };
 		08CA552325B940AA00E8E778 /* bist o se.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bist o se.png"; sourceTree = "<group>"; };
 		08CA552425B940AA00E8E778 /* chehel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chehel.png; sourceTree = "<group>"; };
-		08CA554725B9683700E8E778 /* huruf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huruf.png; sourceTree = "<group>"; };
-		08CA554F25B9696700E8E778 /* addad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,8 +260,35 @@
 				0820DA6125BE129C006758BE /* greetingsData.json */,
 				0820DA5F25BE129C006758BE /* homeData.json */,
 				0820DA6025BE129C006758BE /* numbersData.json */,
+				0820DA9E25BE7891006758BE /* pronounsData.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		0820DA8625BE7855006758BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0820DA8925BE787C006758BE /* addad.png */,
+				0820DA8B25BE787C006758BE /* huruf.png */,
+				0820DA8A25BE787C006758BE /* tahneyat.png */,
+				0820DA8825BE787C006758BE /* zemayer.png */,
+			);
+			name = Home;
+			path = Numbers/Home;
+			sourceTree = "<group>";
+		};
+		0820DA8725BE7867006758BE /* Pronouns */ = {
+			isa = PBXGroup;
+			children = (
+				0820DA9125BE7886006758BE /* anha.png */,
+				0820DA9525BE7886006758BE /* ao.png */,
+				0820DA9425BE7886006758BE /* ma.png */,
+				0820DA9225BE7886006758BE /* man.png */,
+				0820DA9625BE7886006758BE /* shuma.png */,
+				0820DA9325BE7886006758BE /* to.png */,
+			);
+			name = Pronouns;
+			path = Numbers/Home/Pronouns;
 			sourceTree = "<group>";
 		};
 		08CA530725B63DFF00E8E778 = {
@@ -287,11 +348,12 @@
 		08CA532A25B63E2600E8E778 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				08CA535D25B6792500E8E778 /* HomeViewController.swift */,
 				08CA532D25B63EF000E8E778 /* AlphabetViewController.swift */,
 				08CA546125B9026300E8E778 /* NumbersViewController.swift */,
-				08CA536525B67E5D00E8E778 /* InfoViewController.swift */,
 				0820DA0325BAA9D1006758BE /* GreetingsViewController.swift */,
-				08CA535D25B6792500E8E778 /* HomeViewController.swift */,
+				0820DAA125BE7A20006758BE /* PronounsViewController.swift */,
+				08CA536525B67E5D00E8E778 /* InfoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -299,9 +361,8 @@
 		08CA533325B6401D00E8E778 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				08CA554F25B9696700E8E778 /* addad.png */,
-				08CA554725B9683700E8E778 /* huruf.png */,
-				0820DA3D25BB874B006758BE /* tahneyat.png */,
+				0820DA8725BE7867006758BE /* Pronouns */,
+				0820DA8625BE7855006758BE /* Home */,
 				08CA544825B8F85000E8E778 /* Greetings */,
 				08CA533425B6402500E8E778 /* Alphabet */,
 				08CA544725B8F84500E8E778 /* Numbers */,
@@ -396,10 +457,18 @@
 		08CA544825B8F85000E8E778 /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
-				0820DA3125BB85B5006758BE /* Chetor asten?.png */,
-				0820DA3325BB85B5006758BE /* Khob astum.png */,
-				0820DA3225BB85B5006758BE /* Salaam alaikum.png */,
-				0820DA3025BB85B4006758BE /* Tashakor.png */,
+				0820DA7025BE7338006758BE /* Ahale kaja hasted?.png */,
+				0820DA6B25BE7338006758BE /* Chast bakhir.png */,
+				0820DA6F25BE7338006758BE /* Chetor asten?.png */,
+				0820DA6925BE7338006758BE /* Khob astum.png */,
+				0820DA7225BE7338006758BE /* Khuda hafez.png */,
+				0820DA7425BE7338006758BE /* Man ... hastam.png */,
+				0820DA6A25BE7338006758BE /* Name man ... ast.png */,
+				0820DA7125BE7338006758BE /* Nametan cist?.png */,
+				0820DA6C25BE7338006758BE /* Salaam alaikum.png */,
+				0820DA6D25BE7338006758BE /* Shab bakhir.png */,
+				0820DA6E25BE7338006758BE /* Sobh bakhir.png */,
+				0820DA7325BE7338006758BE /* Tashakor.png */,
 			);
 			name = Greetings;
 			path = Numbers;
@@ -464,41 +533,46 @@
 			files = (
 				08CA550E25B93DC100E8E778 /* hashst.png in Resources */,
 				08CA542C25B8D67400E8E778 /* zoy.png in Resources */,
+				0820DA8025BE7338006758BE /* Man ... hastam.png in Resources */,
 				08CA54FE25B93DC100E8E778 /* nozdah.png in Resources */,
 				08CA550B25B93DC100E8E778 /* dou.png in Resources */,
 				08CA542625B8D67400E8E778 /* pay.png in Resources */,
 				0820DA6425BE129C006758BE /* numbersData.json in Resources */,
 				08CA543825B8D67400E8E778 /* noon.png in Resources */,
+				0820DA9B25BE7886006758BE /* ao.png in Resources */,
 				08CA550D25B93DC100E8E778 /* chahar.png in Resources */,
 				08CA543425B8D67400E8E778 /* hay2.png in Resources */,
 				08CA542825B8D67400E8E778 /* zhay.png in Resources */,
 				08CA550125B93DC100E8E778 /* shash.png in Resources */,
 				08CA552B25B940AA00E8E778 /* hashtad.png in Resources */,
+				0820DA7F25BE7338006758BE /* Tashakor.png in Resources */,
 				08CA550825B93DC100E8E778 /* sizdah.png in Resources */,
 				08CA543E25B8D67400E8E778 /* hay.png in Resources */,
 				08CA553325B940AA00E8E778 /* chehel.png in Resources */,
 				08CA553025B940AA00E8E778 /* haftad.png in Resources */,
+				0820DA8F25BE787C006758BE /* huruf.png in Resources */,
 				08CA550625B93DC100E8E778 /* sefr.png in Resources */,
 				08CA550425B93DC100E8E778 /* se.png in Resources */,
 				08CA543D25B8D67400E8E778 /* say.png in Resources */,
-				0820DA3525BB85B5006758BE /* Chetor asten?.png in Resources */,
 				0820DA6525BE129C006758BE /* greetingsData.json in Resources */,
-				0820DA3E25BB874B006758BE /* tahneyat.png in Resources */,
 				08CA544025B8D67400E8E778 /* toy.png in Resources */,
 				08CA543A25B8D67400E8E778 /* zaal.png in Resources */,
+				0820DA9A25BE7886006758BE /* ma.png in Resources */,
 				08CA532025B63E0000E8E778 /* LaunchScreen.storyboard in Resources */,
 				08CA550025B93DC100E8E778 /* yazdeh.png in Resources */,
 				08CA552D25B940AA00E8E778 /* bist o noh.png in Resources */,
+				0820DA9C25BE7886006758BE /* shuma.png in Resources */,
 				08CA544525B8D93F00E8E778 /* chay.png in Resources */,
+				0820DA8C25BE787C006758BE /* zemayer.png in Resources */,
+				0820DA7B25BE7338006758BE /* Chetor asten?.png in Resources */,
+				0820DA9725BE7886006758BE /* anha.png in Resources */,
 				0820DA6325BE129C006758BE /* homeData.json in Resources */,
 				08CA550925B93DC100E8E778 /* bist o yak.png in Resources */,
 				08CA550225B93DC100E8E778 /* bist.png in Resources */,
-				0820DA3425BB85B5006758BE /* Tashakor.png in Resources */,
 				08CA543B25B8D67400E8E778 /* wow.png in Resources */,
 				08CA552E25B940AA00E8E778 /* bist o hasht.png in Resources */,
 				08CA542F25B8D67400E8E778 /* ray.png in Resources */,
 				08CA552525B940AA00E8E778 /* sad.png in Resources */,
-				0820DA3725BB85B5006758BE /* Khob astum.png in Resources */,
 				08CA550F25B93DC100E8E778 /* noh.png in Resources */,
 				08CA551325B93DC200E8E778 /* dowazdah.png in Resources */,
 				08CA550325B93DC100E8E778 /* chahardah.png in Resources */,
@@ -507,19 +581,29 @@
 				08CA544225B8D67400E8E778 /* zuwaat.png in Resources */,
 				08CA551425B93DC200E8E778 /* haft.png in Resources */,
 				08CA543C25B8D67400E8E778 /* tay.png in Resources */,
-				08CA555025B9696700E8E778 /* addad.png in Resources */,
 				08CA543625B8D67400E8E778 /* bay.png in Resources */,
 				08CA551025B93DC100E8E778 /* hajdah.png in Resources */,
 				08CA543225B8D67400E8E778 /* gaaf.png in Resources */,
 				0820DA6625BE129C006758BE /* alphabetData.json in Resources */,
+				0820DA7625BE7338006758BE /* Name man ... ast.png in Resources */,
+				0820DA8D25BE787C006758BE /* addad.png in Resources */,
 				08CA542925B8D67400E8E778 /* daal.png in Resources */,
+				0820DA9825BE7886006758BE /* man.png in Resources */,
+				0820DA7D25BE7338006758BE /* Nametan cist?.png in Resources */,
+				0820DA7C25BE7338006758BE /* Ahale kaja hasted?.png in Resources */,
 				08CA550525B93DC100E8E778 /* havdah.png in Resources */,
 				08CA542525B8D67400E8E778 /* alef.png in Resources */,
+				0820DA9F25BE7891006758BE /* pronounsData.json in Resources */,
+				0820DA7E25BE7338006758BE /* Khuda hafez.png in Resources */,
+				0820DA7A25BE7338006758BE /* Sobh bakhir.png in Resources */,
+				0820DA7825BE7338006758BE /* Salaam alaikum.png in Resources */,
+				0820DA9925BE7886006758BE /* to.png in Resources */,
 				08CA543925B8D67400E8E778 /* ain.png in Resources */,
 				08CA531D25B63E0000E8E778 /* Assets.xcassets in Resources */,
 				08CA550A25B93DC100E8E778 /* dah.png in Resources */,
 				08CA552825B940AA00E8E778 /* bist o chahar.png in Resources */,
 				08CA551125B93DC200E8E778 /* panj.png in Resources */,
+				0820DA7925BE7338006758BE /* Shab bakhir.png in Resources */,
 				08CA543F25B8D67400E8E778 /* meem.png in Resources */,
 				08CA542725B8D67400E8E778 /* jeem.png in Resources */,
 				08CA552625B940AA00E8E778 /* panjah.png in Resources */,
@@ -530,22 +614,23 @@
 				08CA552725B940AA00E8E778 /* shast.png in Resources */,
 				08CA544125B8D67400E8E778 /* suwaat.png in Resources */,
 				08CA543325B8D67400E8E778 /* ghain.png in Resources */,
+				0820DA8E25BE787C006758BE /* tahneyat.png in Resources */,
 				08CA543025B8D67400E8E778 /* fe.png in Resources */,
 				08CA551225B93DC200E8E778 /* yak.png in Resources */,
 				08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */,
 				08CA552A25B940AA00E8E778 /* bist o panj.png in Resources */,
 				08CA543125B8D67400E8E778 /* qaaf.png in Resources */,
-				08CA554925B9683700E8E778 /* huruf.png in Resources */,
 				08CA542B25B8D67400E8E778 /* khay.png in Resources */,
 				08CA543725B8D67400E8E778 /* laam.png in Resources */,
 				0820DA1825BAADEF006758BE /* ReusableTableViewCell.xib in Resources */,
+				0820DA7725BE7338006758BE /* Chast bakhir.png in Resources */,
 				08CA553225B940AA00E8E778 /* bist o se.png in Resources */,
 				08CA552C25B940AA00E8E778 /* si.png in Resources */,
 				08CA543525B8D67400E8E778 /* yaa.png in Resources */,
 				08CA550725B93DC100E8E778 /* bist o dou.png in Resources */,
 				08CA542425B8D67400E8E778 /* zay.png in Resources */,
+				0820DA7525BE7338006758BE /* Khob astum.png in Resources */,
 				08CA542D25B8D67400E8E778 /* sheen.png in Resources */,
-				0820DA3625BB85B5006758BE /* Salaam alaikum.png in Resources */,
 				08CA553125B940AA00E8E778 /* bist o shash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +644,7 @@
 			files = (
 				0820DA1725BAADEF006758BE /* ReusableTableViewCell.swift in Sources */,
 				08CA532E25B63EF000E8E778 /* AlphabetViewController.swift in Sources */,
+				0820DAA225BE7A20006758BE /* PronounsViewController.swift in Sources */,
 				08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */,
 				08CA535E25B6792500E8E778 /* HomeViewController.swift in Sources */,
 				0820DA4125BCFF9B006758BE /* AppData.swift in Sources */,

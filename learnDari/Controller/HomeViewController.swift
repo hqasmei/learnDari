@@ -41,6 +41,8 @@ extension HomeViewController: UITableViewDelegate{
                 performSegue(withIdentifier: "HomeToNumbers", sender: self)
             case 2:
                 performSegue(withIdentifier: "HomeToGreetings", sender: self)
+            case 3:
+                performSegue(withIdentifier: "HomeToPronouns", sender: self)
             default:
                 performSegue(withIdentifier: "HomeToAlphabet", sender: self)
         }

@@ -1,25 +1,24 @@
 //
-//  NumbersViewController.swift
+//  PronounsViewController.swift
 //  learnDari
 //
-//  Created by Hosna Qasmei on 1/20/21.
+//  Created by Hosna Qasmei on 1/24/21.
 //
 
-import Foundation
 import UIKit
 
-class NumbersViewController: UIViewController {
+class PronounsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    var numbers: [RowItem] = []
+    var pronouns: [RowItem] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let data = DataLoader(jsonFileName: K.numbersJsonFile).appData
+        let data = DataLoader(jsonFileName: K.pronounsJsonFile).appData
         
         for i in 0..<data.count{
-            numbers.append(RowItem(dari: data[i].dari , english: data[i].english  , image: data[i].image   , sound: data[i].sound))
+            pronouns.append(RowItem(dari: data[i].dari , english: data[i].english  , image: data[i].image   , sound: data[i].sound))
         }
         
         tableView.dataSource = self
@@ -28,19 +27,18 @@ class NumbersViewController: UIViewController {
     
 }
 
-extension NumbersViewController: UITableViewDataSource{
+extension PronounsViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return numbers.count
+        return pronouns.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! ReusableTableViewCell
         
-        cell.dari.text       = numbers[indexPath.row].dari
-        cell.english.text    = numbers[indexPath.row].english
-        cell.imageItem.image = numbers[indexPath.row].resizeImage(image: UIImage(named: numbers[indexPath.row].image)!, targetSize: CGSize(width: 50, height: 50))
+        cell.dari.text       = pronouns[indexPath.row].dari
+        cell.english.text    = pronouns[indexPath.row].english
+        cell.imageItem.image = pronouns[indexPath.row].resizeImage(image: UIImage(named: pronouns[indexPath.row].image)!, targetSize: CGSize(width: 50, height: 50))
         
         return cell
     }
 }
-

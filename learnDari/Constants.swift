@@ -16,6 +16,7 @@ struct K {
     static let alphabetJsonFile  = "alphabetData"
     static let numbersJsonFile   = "numbersData"
     static let greetingsJsonFile = "greetingsData"
+    static let pronounsJsonFile  = "pronounsData"
     
     
     

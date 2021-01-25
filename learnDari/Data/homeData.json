@@ -18,6 +18,13 @@
         "english" : "Greetings",
         "image"   : "tahneyat",
         "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Zemayer",
+        "english" : "Pronouns",
+        "image"   : "zemayer",
+        "sound"   : ""
     }
 ]
 

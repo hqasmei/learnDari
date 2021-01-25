@@ -68,6 +68,7 @@
                         <segue destination="S32-6w-Yx9" kind="show" identifier="HomeToNumbers" id="ZkO-kH-bMD"/>
                         <segue destination="aZu-k3-dUe" kind="show" identifier="HomeToGreetings" id="bBc-jw-CDa"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="HomeToAlphabet" id="bnX-ET-7y8"/>
+                        <segue destination="fjI-31-8x3" kind="show" identifier="HomeToPronouns" id="B3x-0y-sBD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnD-Xs-JyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -171,6 +172,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Lw-2e-2Hm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="663.768115942029" y="2349.7767857142858"/>
+        </scene>
+        <!--Pronouns View Controller-->
+        <scene sceneID="EC8-7q-QL0">
+            <objects>
+                <viewController id="fjI-31-8x3" customClass="PronounsViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zFR-ue-R9L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zsH-F3-m83">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gjY-EP-SWg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zsH-F3-m83" firstAttribute="top" secondItem="zFR-ue-R9L" secondAttribute="top" constant="88" id="8IP-m6-QG6"/>
+                            <constraint firstItem="zsH-F3-m83" firstAttribute="trailing" secondItem="zFR-ue-R9L" secondAttribute="trailing" id="EQK-rX-cnR"/>
+                            <constraint firstItem="zsH-F3-m83" firstAttribute="leading" secondItem="zFR-ue-R9L" secondAttribute="leading" id="OdU-ft-7Bj"/>
+                            <constraint firstItem="zsH-F3-m83" firstAttribute="bottom" secondItem="zFR-ue-R9L" secondAttribute="bottom" constant="-83" id="bbX-6a-wZO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="knu-1X-42a"/>
+                    <connections>
+                        <outlet property="tableView" destination="zsH-F3-m83" id="Vfa-Nz-c7g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85a-LB-0Zm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1605.7971014492755" y="2349.7767857142858"/>
         </scene>
         <!--Home-->
         <scene sceneID="fzm-qo-g59">

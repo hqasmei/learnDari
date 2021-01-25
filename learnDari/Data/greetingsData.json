@@ -25,6 +25,55 @@
         "english" : "Thank you",
         "image"   : "Tashakor",
         "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Nametan cist?",
+        "english" : "What's your name?",
+        "image"   : "Nametan cist?",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Name man ... ast",
+        "english" : "My name is ...",
+        "image"   : "Name man ... ast",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Ahale kaja hasted?",
+        "english" : "Where are you from?",
+        "image"   : "Ahale kaja hasted?",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Man ... hastam",
+        "english" : "I'm from ...",
+        "image"   : "Man ... hastam",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Sobh bakhir",
+        "english" : "Good morning",
+        "image"   : "Sobh bakhir",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Chast bakhir",
+        "english" : "Good evening",
+        "image"   : "Chast bakhir",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Khuda hafez",
+        "english" : "Goodbye",
+        "image"   : "Khuda hafez",
+        "sound"   : ""
     }
     
 ]
