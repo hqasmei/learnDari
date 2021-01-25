@@ -23,7 +23,13 @@ class GreetingsViewController: UIViewController {
         }
         
         tableView.dataSource = self
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 300
+        
         tableView.register(UINib(nibName: "ReusableTableViewCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
+        
+        
+        
     }
     
    

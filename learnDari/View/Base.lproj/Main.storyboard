@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1284.0579710144928" y="2349.7767857142858"/>
+            <point key="canvasLocation" x="-3496" y="2402"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="YhL-df-AYp">
@@ -69,6 +69,7 @@
                         <segue destination="aZu-k3-dUe" kind="show" identifier="HomeToGreetings" id="bBc-jw-CDa"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="HomeToAlphabet" id="bnX-ET-7y8"/>
                         <segue destination="fjI-31-8x3" kind="show" identifier="HomeToPronouns" id="B3x-0y-sBD"/>
+                        <segue destination="a0B-xI-ZPB" kind="show" identifier="HomeToDays" id="fC7-yi-4kK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnD-Xs-JyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -140,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZLP-FH-hej" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-388.40579710144931" y="2349.7767857142858"/>
+            <point key="canvasLocation" x="-2600" y="2402"/>
         </scene>
         <!--Greetings View Controller-->
         <scene sceneID="ucQ-7m-iSo">
@@ -171,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Lw-2e-2Hm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663.768115942029" y="2349.7767857142858"/>
+            <point key="canvasLocation" x="-1548" y="2402"/>
         </scene>
         <!--Pronouns View Controller-->
         <scene sceneID="EC8-7q-QL0">
@@ -202,7 +203,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="85a-LB-0Zm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1605.7971014492755" y="2349.7767857142858"/>
+            <point key="canvasLocation" x="-606" y="2402"/>
+        </scene>
+        <!--Days View Controller-->
+        <scene sceneID="4yW-aj-vtu">
+            <objects>
+                <viewController id="a0B-xI-ZPB" customClass="DaysViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="11L-dV-4G5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Niv-c2-5PC">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YIX-IX-exE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Niv-c2-5PC" secondAttribute="trailing" id="5BM-wj-1mG"/>
+                            <constraint firstItem="Niv-c2-5PC" firstAttribute="top" secondItem="11L-dV-4G5" secondAttribute="top" constant="88" id="DhB-fy-TP6"/>
+                            <constraint firstItem="Niv-c2-5PC" firstAttribute="leading" secondItem="11L-dV-4G5" secondAttribute="leading" id="I31-4Y-N6X"/>
+                            <constraint firstAttribute="bottom" secondItem="Niv-c2-5PC" secondAttribute="bottom" constant="83" id="JT9-bf-Xe7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aoR-7P-NP6"/>
+                    <connections>
+                        <outlet property="tableView" destination="Niv-c2-5PC" id="NHF-e1-1rb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wdd-Aw-0M0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="316" y="2401"/>
         </scene>
         <!--Home-->
         <scene sceneID="fzm-qo-g59">

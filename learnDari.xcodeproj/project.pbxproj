@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0820DA0425BAA9D1006758BE /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA0325BAA9D1006758BE /* GreetingsViewController.swift */; };
-		0820DA1725BAADEF006758BE /* ReusableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA1525BAADEF006758BE /* ReusableTableViewCell.swift */; };
-		0820DA1825BAADEF006758BE /* ReusableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA1625BAADEF006758BE /* ReusableTableViewCell.xib */; };
 		0820DA1C25BAB169006758BE /* RowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA1B25BAB169006758BE /* RowItem.swift */; };
 		0820DA4125BCFF9B006758BE /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA4025BCFF9B006758BE /* AppData.swift */; };
 		0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA4325BCFFD6006758BE /* DataLoader.swift */; };
@@ -41,6 +39,18 @@
 		0820DA9C25BE7886006758BE /* shuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9625BE7886006758BE /* shuma.png */; };
 		0820DA9F25BE7891006758BE /* pronounsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0820DA9E25BE7891006758BE /* pronounsData.json */; };
 		0820DAA225BE7A20006758BE /* PronounsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DAA125BE7A20006758BE /* PronounsViewController.swift */; };
+		08777DD825BF42F600E2725B /* daysData.json in Resources */ = {isa = PBXBuildFile; fileRef = 08777DD725BF42F600E2725B /* daysData.json */; };
+		08777DE525BF453E00E2725B /* doshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DDD25BF453D00E2725B /* doshanbeh.png */; };
+		08777DE625BF453E00E2725B /* juma.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DDE25BF453D00E2725B /* juma.png */; };
+		08777DE825BF453E00E2725B /* seshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE025BF453E00E2725B /* seshanbeh.png */; };
+		08777DE925BF453E00E2725B /* shanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE125BF453E00E2725B /* shanbeh.png */; };
+		08777DEA25BF453E00E2725B /* yakshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE225BF453E00E2725B /* yakshanbeh.png */; };
+		08777DEB25BF453E00E2725B /* panjshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE325BF453E00E2725B /* panjshanbeh.png */; };
+		08777DEC25BF453E00E2725B /* charshanbeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DE425BF453E00E2725B /* charshanbeh.png */; };
+		08777DF025BF460600E2725B /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777DEF25BF460600E2725B /* DaysViewController.swift */; };
+		08777DF925BF498C00E2725B /* rozhai.png in Resources */ = {isa = PBXBuildFile; fileRef = 08777DF825BF498C00E2725B /* rozhai.png */; };
+		08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */; };
+		08777E0125BF4FBD00E2725B /* ReusableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */; };
 		08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531325B63DFF00E8E778 /* AppDelegate.swift */; };
 		08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531525B63DFF00E8E778 /* SceneDelegate.swift */; };
 		08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531925B63DFF00E8E778 /* Main.storyboard */; };
@@ -125,8 +135,6 @@
 
 /* Begin PBXFileReference section */
 		0820DA0325BAA9D1006758BE /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
-		0820DA1525BAADEF006758BE /* ReusableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewCell.swift; sourceTree = "<group>"; };
-		0820DA1625BAADEF006758BE /* ReusableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableTableViewCell.xib; sourceTree = "<group>"; };
 		0820DA1B25BAB169006758BE /* RowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItem.swift; sourceTree = "<group>"; };
 		0820DA4025BCFF9B006758BE /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		0820DA4325BCFFD6006758BE /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -158,6 +166,18 @@
 		0820DA9625BE7886006758BE /* shuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuma.png; path = learnDari/Images/Pronouns/shuma.png; sourceTree = SOURCE_ROOT; };
 		0820DA9E25BE7891006758BE /* pronounsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pronounsData.json; sourceTree = "<group>"; };
 		0820DAA125BE7A20006758BE /* PronounsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsViewController.swift; sourceTree = "<group>"; };
+		08777DD725BF42F600E2725B /* daysData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = daysData.json; sourceTree = "<group>"; };
+		08777DDD25BF453D00E2725B /* doshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doshanbeh.png; sourceTree = "<group>"; };
+		08777DDE25BF453D00E2725B /* juma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juma.png; sourceTree = "<group>"; };
+		08777DE025BF453E00E2725B /* seshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seshanbeh.png; sourceTree = "<group>"; };
+		08777DE125BF453E00E2725B /* shanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shanbeh.png; sourceTree = "<group>"; };
+		08777DE225BF453E00E2725B /* yakshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yakshanbeh.png; sourceTree = "<group>"; };
+		08777DE325BF453E00E2725B /* panjshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panjshanbeh.png; sourceTree = "<group>"; };
+		08777DE425BF453E00E2725B /* charshanbeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charshanbeh.png; sourceTree = "<group>"; };
+		08777DEF25BF460600E2725B /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		08777DF825BF498C00E2725B /* rozhai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rozhai.png; path = learnDari/Images/Home/rozhai.png; sourceTree = SOURCE_ROOT; };
+		08777DFD25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/ReusableTableViewCell.swift; sourceTree = "<group>"; };
+		08777DFF25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReusableTableViewCell.xib; sourceTree = "<group>"; };
 		08CA531025B63DFF00E8E778 /* learnDari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnDari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA531325B63DFF00E8E778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA531525B63DFF00E8E778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -256,11 +276,12 @@
 		0820DA4A25BD0DD0006758BE /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				0820DA6225BE129C006758BE /* alphabetData.json */,
-				0820DA6125BE129C006758BE /* greetingsData.json */,
 				0820DA5F25BE129C006758BE /* homeData.json */,
+				0820DA6225BE129C006758BE /* alphabetData.json */,
 				0820DA6025BE129C006758BE /* numbersData.json */,
+				0820DA6125BE129C006758BE /* greetingsData.json */,
 				0820DA9E25BE7891006758BE /* pronounsData.json */,
+				08777DD725BF42F600E2725B /* daysData.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -269,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				0820DA8925BE787C006758BE /* addad.png */,
+				08777DF825BF498C00E2725B /* rozhai.png */,
 				0820DA8B25BE787C006758BE /* huruf.png */,
 				0820DA8A25BE787C006758BE /* tahneyat.png */,
 				0820DA8825BE787C006758BE /* zemayer.png */,
@@ -289,6 +311,20 @@
 			);
 			name = Pronouns;
 			path = Numbers/Home/Pronouns;
+			sourceTree = "<group>";
+		};
+		08777DDC25BF432C00E2725B /* Days of the Week */ = {
+			isa = PBXGroup;
+			children = (
+				08777DE425BF453E00E2725B /* charshanbeh.png */,
+				08777DDD25BF453D00E2725B /* doshanbeh.png */,
+				08777DDE25BF453D00E2725B /* juma.png */,
+				08777DE325BF453E00E2725B /* panjshanbeh.png */,
+				08777DE025BF453E00E2725B /* seshanbeh.png */,
+				08777DE125BF453E00E2725B /* shanbeh.png */,
+				08777DE225BF453E00E2725B /* yakshanbeh.png */,
+			);
+			path = "Days of the Week";
 			sourceTree = "<group>";
 		};
 		08CA530725B63DFF00E8E778 = {
@@ -339,8 +375,8 @@
 			isa = PBXGroup;
 			children = (
 				08CA531925B63DFF00E8E778 /* Main.storyboard */,
-				0820DA1525BAADEF006758BE /* ReusableTableViewCell.swift */,
-				0820DA1625BAADEF006758BE /* ReusableTableViewCell.xib */,
+				08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */,
+				08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -353,6 +389,7 @@
 				08CA546125B9026300E8E778 /* NumbersViewController.swift */,
 				0820DA0325BAA9D1006758BE /* GreetingsViewController.swift */,
 				0820DAA125BE7A20006758BE /* PronounsViewController.swift */,
+				08777DEF25BF460600E2725B /* DaysViewController.swift */,
 				08CA536525B67E5D00E8E778 /* InfoViewController.swift */,
 			);
 			path = Controller;
@@ -362,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				0820DA8725BE7867006758BE /* Pronouns */,
+				08777DDC25BF432C00E2725B /* Days of the Week */,
 				0820DA8625BE7855006758BE /* Home */,
 				08CA544825B8F85000E8E778 /* Greetings */,
 				08CA533425B6402500E8E778 /* Alphabet */,
@@ -539,6 +577,7 @@
 				08CA542625B8D67400E8E778 /* pay.png in Resources */,
 				0820DA6425BE129C006758BE /* numbersData.json in Resources */,
 				08CA543825B8D67400E8E778 /* noon.png in Resources */,
+				08777DD825BF42F600E2725B /* daysData.json in Resources */,
 				0820DA9B25BE7886006758BE /* ao.png in Resources */,
 				08CA550D25B93DC100E8E778 /* chahar.png in Resources */,
 				08CA543425B8D67400E8E778 /* hay2.png in Resources */,
@@ -546,15 +585,18 @@
 				08CA550125B93DC100E8E778 /* shash.png in Resources */,
 				08CA552B25B940AA00E8E778 /* hashtad.png in Resources */,
 				0820DA7F25BE7338006758BE /* Tashakor.png in Resources */,
+				08777DE625BF453E00E2725B /* juma.png in Resources */,
 				08CA550825B93DC100E8E778 /* sizdah.png in Resources */,
 				08CA543E25B8D67400E8E778 /* hay.png in Resources */,
 				08CA553325B940AA00E8E778 /* chehel.png in Resources */,
 				08CA553025B940AA00E8E778 /* haftad.png in Resources */,
+				08777DE525BF453E00E2725B /* doshanbeh.png in Resources */,
 				0820DA8F25BE787C006758BE /* huruf.png in Resources */,
 				08CA550625B93DC100E8E778 /* sefr.png in Resources */,
 				08CA550425B93DC100E8E778 /* se.png in Resources */,
 				08CA543D25B8D67400E8E778 /* say.png in Resources */,
 				0820DA6525BE129C006758BE /* greetingsData.json in Resources */,
+				08777DEA25BF453E00E2725B /* yakshanbeh.png in Resources */,
 				08CA544025B8D67400E8E778 /* toy.png in Resources */,
 				08CA543A25B8D67400E8E778 /* zaal.png in Resources */,
 				0820DA9A25BE7886006758BE /* ma.png in Resources */,
@@ -565,6 +607,7 @@
 				08CA544525B8D93F00E8E778 /* chay.png in Resources */,
 				0820DA8C25BE787C006758BE /* zemayer.png in Resources */,
 				0820DA7B25BE7338006758BE /* Chetor asten?.png in Resources */,
+				08777E0125BF4FBD00E2725B /* ReusableTableViewCell.xib in Resources */,
 				0820DA9725BE7886006758BE /* anha.png in Resources */,
 				0820DA6325BE129C006758BE /* homeData.json in Resources */,
 				08CA550925B93DC100E8E778 /* bist o yak.png in Resources */,
@@ -584,6 +627,7 @@
 				08CA543625B8D67400E8E778 /* bay.png in Resources */,
 				08CA551025B93DC100E8E778 /* hajdah.png in Resources */,
 				08CA543225B8D67400E8E778 /* gaaf.png in Resources */,
+				08777DEC25BF453E00E2725B /* charshanbeh.png in Resources */,
 				0820DA6625BE129C006758BE /* alphabetData.json in Resources */,
 				0820DA7625BE7338006758BE /* Name man ... ast.png in Resources */,
 				0820DA8D25BE787C006758BE /* addad.png in Resources */,
@@ -592,6 +636,7 @@
 				0820DA7D25BE7338006758BE /* Nametan cist?.png in Resources */,
 				0820DA7C25BE7338006758BE /* Ahale kaja hasted?.png in Resources */,
 				08CA550525B93DC100E8E778 /* havdah.png in Resources */,
+				08777DEB25BF453E00E2725B /* panjshanbeh.png in Resources */,
 				08CA542525B8D67400E8E778 /* alef.png in Resources */,
 				0820DA9F25BE7891006758BE /* pronounsData.json in Resources */,
 				0820DA7E25BE7338006758BE /* Khuda hafez.png in Resources */,
@@ -622,8 +667,9 @@
 				08CA543125B8D67400E8E778 /* qaaf.png in Resources */,
 				08CA542B25B8D67400E8E778 /* khay.png in Resources */,
 				08CA543725B8D67400E8E778 /* laam.png in Resources */,
-				0820DA1825BAADEF006758BE /* ReusableTableViewCell.xib in Resources */,
+				08777DE825BF453E00E2725B /* seshanbeh.png in Resources */,
 				0820DA7725BE7338006758BE /* Chast bakhir.png in Resources */,
+				08777DF925BF498C00E2725B /* rozhai.png in Resources */,
 				08CA553225B940AA00E8E778 /* bist o se.png in Resources */,
 				08CA552C25B940AA00E8E778 /* si.png in Resources */,
 				08CA543525B8D67400E8E778 /* yaa.png in Resources */,
@@ -632,6 +678,7 @@
 				0820DA7525BE7338006758BE /* Khob astum.png in Resources */,
 				08CA542D25B8D67400E8E778 /* sheen.png in Resources */,
 				08CA553125B940AA00E8E778 /* bist o shash.png in Resources */,
+				08777DE925BF453E00E2725B /* shanbeh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +689,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0820DA1725BAADEF006758BE /* ReusableTableViewCell.swift in Sources */,
 				08CA532E25B63EF000E8E778 /* AlphabetViewController.swift in Sources */,
 				0820DAA225BE7A20006758BE /* PronounsViewController.swift in Sources */,
 				08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */,
@@ -651,9 +697,11 @@
 				0820DA0425BAA9D1006758BE /* GreetingsViewController.swift in Sources */,
 				08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */,
 				08CA534925B644B500E8E778 /* Constants.swift in Sources */,
+				08777DF025BF460600E2725B /* DaysViewController.swift in Sources */,
 				0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */,
 				08CA546225B9026300E8E778 /* NumbersViewController.swift in Sources */,
 				08CA536625B67E5D00E8E778 /* InfoViewController.swift in Sources */,
+				08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */,
 				0820DA1C25BAB169006758BE /* RowItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -661,6 +709,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08777DFD25BF4FBD00E2725B /* Base */,
+			);
+			name = ReusableTableViewCell.swift;
+			sourceTree = "<group>";
+		};
+		08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08777DFF25BF4FBD00E2725B /* Base */,
+			);
+			name = ReusableTableViewCell.xib;
+			sourceTree = "<group>";
+		};
 		08CA531925B63DFF00E8E778 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

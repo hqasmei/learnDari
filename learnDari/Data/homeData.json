@@ -25,7 +25,15 @@
         "english" : "Pronouns",
         "image"   : "zemayer",
         "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Rozhai",
+        "english" : "Days",
+        "image"   : "rozhai",
+        "sound"   : ""
     }
+    
 ]
 
 

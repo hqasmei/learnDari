@@ -43,6 +43,8 @@ extension HomeViewController: UITableViewDelegate{
                 performSegue(withIdentifier: "HomeToGreetings", sender: self)
             case 3:
                 performSegue(withIdentifier: "HomeToPronouns", sender: self)
+            case 4:
+                performSegue(withIdentifier: "HomeToDays", sender: self)
             default:
                 performSegue(withIdentifier: "HomeToAlphabet", sender: self)
         }
@@ -50,6 +52,7 @@ extension HomeViewController: UITableViewDelegate{
 }
 
 extension HomeViewController: UITableViewDataSource{
+    
     func tableView(_ homeTableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return home.count
     }
