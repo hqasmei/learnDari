@@ -1,0 +1,32 @@
+[
+    {
+        "dari"    : "Salaam alaikum",
+        "english" : "Hello",
+        "image"   : "Salaam alaikum",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Chetor asten?",
+        "english" : "How are you?",
+        "image"   : "Chetor asten?",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Khob astum",
+        "english" : "I am good",
+        "image"   : "Khob astum",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Tashakor",
+        "english" : "Thank you",
+        "image"   : "Tashakor",
+        "sound"   : ""
+    }
+    
+]
+ 
+

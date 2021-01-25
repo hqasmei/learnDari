@@ -9,6 +9,14 @@ struct K {
     
     static let appName        = "learnDari"
     static let cellIdentifier = "ReusableCell"
-//    static let 
+   
+    
+    
+    static let homeJsonFile      = "homeData"
+    static let alphabetJsonFile  = "alphabetData"
+    static let numbersJsonFile   = "numbersData"
+    static let greetingsJsonFile = "greetingsData"
+    
+    
     
 }

@@ -10,17 +10,21 @@ import UIKit
 class HomeViewController: UIViewController{
     @IBOutlet weak var homeTableView: UITableView!
     
-    var home: [HomeItem] = [
-        HomeItem(itemDari: "Addad", itemEnglish: "Alphabet", image: "addad.png"),
-        HomeItem(itemDari: "Huruf",     itemEnglish: "Numbers", image: "huruf.png")
-    ]
+    var home: [RowItem] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Home"
+        
+        let data = DataLoader(jsonFileName: K.homeJsonFile).appData
+        
+        for i in 0..<data.count{
+            home.append(RowItem(dari: data[i].dari , english: data[i].english  , image: data[i].image   , sound: data[i].sound))
+        }
+        
         homeTableView.delegate   = self
         homeTableView.dataSource = self
-        homeTableView.register(UINib(nibName: "HomeTableViewCell", bundle: nil), forCellReuseIdentifier: "HomeReusableCell")
+        homeTableView.register(UINib(nibName: "ReusableTableViewCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
     }
 }
 
@@ -35,6 +39,8 @@ extension HomeViewController: UITableViewDelegate{
                 performSegue(withIdentifier: "HomeToAlphabet", sender: self)
             case 1:
                 performSegue(withIdentifier: "HomeToNumbers", sender: self)
+            case 2:
+                performSegue(withIdentifier: "HomeToGreetings", sender: self)
             default:
                 performSegue(withIdentifier: "HomeToAlphabet", sender: self)
         }
@@ -48,11 +54,11 @@ extension HomeViewController: UITableViewDataSource{
     
     func tableView(_ homeTableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        
-        let cell = homeTableView.dequeueReusableCell(withIdentifier: "HomeReusableCell", for: indexPath) as! HomeTableViewCell
-        cell.homeItemDari.text    = home[indexPath.row].itemDari
-        cell.homeItemEnglish.text = home[indexPath.row].itemEnglish
-        cell.homeItemImage.image  = UIImage(named: home[indexPath.row].image)
-        cell.accessoryType        = UITableViewCell.AccessoryType.disclosureIndicator
+        let cell = homeTableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! ReusableTableViewCell
+        cell.dari.text       = home[indexPath.row].dari
+        cell.english.text    = home[indexPath.row].english
+        cell.imageItem.image = home[indexPath.row].resizeImage(image: UIImage(named: home[indexPath.row].image)!, targetSize: CGSize(width: 100, height: 100))
+        cell.accessoryType   = UITableViewCell.AccessoryType.disclosureIndicator
         
         return cell
     }

@@ -1,18 +1,20 @@
 //
-//  HomeTableViewCell.swift
+//  ReusableTableViewCell.swift
 //  learnDari
 //
-//  Created by Hosna Qasmei on 1/18/21.
+//  Created by Hosna Qasmei on 1/21/21.
 //
 
 import UIKit
 
-class HomeTableViewCell: UITableViewCell {
+class ReusableTableViewCell: UITableViewCell {
+
     
-    @IBOutlet weak var homeItemDari: UILabel!
-    @IBOutlet weak var homeItemEnglish: UILabel!
-    @IBOutlet weak var homeItemImage: UIImageView!
     
+    @IBOutlet weak var imageItem: UIImageView!
+    @IBOutlet weak var dari: UILabel!
+    @IBOutlet weak var english: UILabel!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,5 +25,6 @@ class HomeTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
     
 }

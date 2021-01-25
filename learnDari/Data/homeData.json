@@ -1,0 +1,24 @@
+[
+    {
+        "dari"    : "Addad",
+        "english" : "Alphabet",
+        "image"   : "addad",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Huruf",
+        "english" : "Numbers",
+        "image"   : "huruf",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Tahneyat",
+        "english" : "Greetings",
+        "image"   : "tahneyat",
+        "sound"   : ""
+    }
+]
+
+

@@ -10,33 +10,22 @@ import UIKit
 class AlphabetViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    var letters: [Letter] = []
+    var letters: [RowItem] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        readInput()
+        
+        let data = DataLoader(jsonFileName: K.alphabetJsonFile).appData
+        
+        for i in 0..<data.count{
+            letters.append(RowItem(dari: data[i].dari , english: data[i].english  , image: data[i].image   , sound: data[i].sound))
+        }
+        
         tableView.dataSource = self
-        tableView.register(UINib(nibName: "AlphabetTableViewCell", bundle: nil), forCellReuseIdentifier: "AlphabetReusableCell")
+        tableView.register(UINib(nibName: "ReusableTableViewCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
     }
     
-    func readInput(){
-        if let path = Bundle.main.path(forResource: "AlphabetsTextFile", ofType: "txt") {
-            do {
-                let data = try String(contentsOfFile: path, encoding: .utf8)
-                let myStrings = data.components(separatedBy: .newlines)
-                
-                for i in 0..<myStrings.count{
-                    let myStringArr = myStrings[i].components(separatedBy: ",")
-                    
-                    if myStringArr[0] != ""{
-                        letters.append(Letter(letterDariName: myStringArr[0], letterEnglishName: myStringArr[1], image: "\(myStringArr[0]).png", sound: ""))
-                    }
-                }
-            } catch {
-                print("Error")
-            }
-        }
-    }
+ 
 }
 
 extension AlphabetViewController: UITableViewDataSource{
@@ -45,11 +34,11 @@ extension AlphabetViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "AlphabetReusableCell", for: indexPath) as! AlphabetTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! ReusableTableViewCell
         
-        cell.letterDari.text      = letters[indexPath.row].letterDariName
-        cell.letterEnglish.text   = letters[indexPath.row].letterEnglishName
-        cell.letterImage.image    =  UIImage(named: letters[indexPath.row].image)
+        cell.dari.text       = letters[indexPath.row].dari
+        cell.english.text    = letters[indexPath.row].english
+        cell.imageItem.image =  UIImage(named: letters[indexPath.row].image)
         
         return cell
     }
