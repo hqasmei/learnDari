@@ -49,6 +49,9 @@
 		08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */; };
 		08777E0125BF4FBD00E2725B /* ReusableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */; };
 		08777E0725BF5E3900E2725B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E0625BF5E3900E2725B /* DataViewController.swift */; };
+		08777E0C25BF71B100E2725B /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E0A25BF71B100E2725B /* DataTableViewCell.swift */; };
+		08777E0D25BF71B100E2725B /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08777E0B25BF71B100E2725B /* DataTableViewCell.xib */; };
+		08777E1125BF73CA00E2725B /* SubDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E1025BF73CA00E2725B /* SubDataViewController.swift */; };
 		08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531325B63DFF00E8E778 /* AppDelegate.swift */; };
 		08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531525B63DFF00E8E778 /* SceneDelegate.swift */; };
 		08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531925B63DFF00E8E778 /* Main.storyboard */; };
@@ -172,6 +175,9 @@
 		08777DFD25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/ReusableTableViewCell.swift; sourceTree = "<group>"; };
 		08777DFF25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReusableTableViewCell.xib; sourceTree = "<group>"; };
 		08777E0625BF5E3900E2725B /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		08777E0A25BF71B100E2725B /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		08777E0B25BF71B100E2725B /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		08777E1025BF73CA00E2725B /* SubDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubDataViewController.swift; sourceTree = "<group>"; };
 		08CA531025B63DFF00E8E778 /* learnDari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnDari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA531325B63DFF00E8E778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA531525B63DFF00E8E778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -369,6 +375,8 @@
 				08CA531925B63DFF00E8E778 /* Main.storyboard */,
 				08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */,
 				08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */,
+				08777E0A25BF71B100E2725B /* DataTableViewCell.swift */,
+				08777E0B25BF71B100E2725B /* DataTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -378,6 +386,7 @@
 			children = (
 				08CA535D25B6792500E8E778 /* HomeViewController.swift */,
 				08777E0625BF5E3900E2725B /* DataViewController.swift */,
+				08777E1025BF73CA00E2725B /* SubDataViewController.swift */,
 				08CA536525B67E5D00E8E778 /* InfoViewController.swift */,
 			);
 			path = Controller;
@@ -624,6 +633,7 @@
 				0820DA7D25BE7338006758BE /* Nametan cist?.png in Resources */,
 				0820DA7C25BE7338006758BE /* Ahale kaja hasted?.png in Resources */,
 				08CA550525B93DC100E8E778 /* havdah.png in Resources */,
+				08777E0D25BF71B100E2725B /* DataTableViewCell.xib in Resources */,
 				08777DEB25BF453E00E2725B /* panjshanbeh.png in Resources */,
 				08CA542525B8D67400E8E778 /* alef.png in Resources */,
 				0820DA9F25BE7891006758BE /* pronounsData.json in Resources */,
@@ -682,9 +692,11 @@
 				08777E0725BF5E3900E2725B /* DataViewController.swift in Sources */,
 				0820DA4125BCFF9B006758BE /* AppData.swift in Sources */,
 				08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */,
+				08777E1125BF73CA00E2725B /* SubDataViewController.swift in Sources */,
 				08CA534925B644B500E8E778 /* Constants.swift in Sources */,
 				0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */,
 				08CA536625B67E5D00E8E778 /* InfoViewController.swift in Sources */,
+				08777E0C25BF71B100E2725B /* DataTableViewCell.swift in Sources */,
 				08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */,
 				0820DA1C25BAB169006758BE /* RowItem.swift in Sources */,
 			);

@@ -15,9 +15,9 @@ class HomeViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Home"
+        self.title = K.home
         
-        let data = DataLoader(rowSelected: "Home").appData
+        let data = DataLoader(rowSelected: K.home).appData
         
         for i in 0..<data.count{
             home.append(RowItem(dari: data[i].dari , english: data[i].english  , image: data[i].image   , sound: data[i].sound))
@@ -25,7 +25,7 @@ class HomeViewController: UIViewController{
         
         homeTableView.delegate   = self
         homeTableView.dataSource = self
-        homeTableView.register(UINib(nibName: "ReusableTableViewCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
+        homeTableView.register(UINib(nibName: K.cellTableViewIdentifier, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -43,7 +43,7 @@ extension HomeViewController: UITableViewDelegate{
 //        rowSelected = homeTableView.deselectRow(at: indexPath, animated: true)
         let currentCell = homeTableView.cellForRow(at: indexPath)! as! ReusableTableViewCell
         rowSelected = currentCell.english!.text!
-        performSegue(withIdentifier: "HomeToData", sender: self)
+        performSegue(withIdentifier: K.homeToDataSegue, sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -61,7 +61,7 @@ extension HomeViewController: UITableViewDataSource{
     
     func tableView(_ homeTableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        
-        let cell = homeTableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! ReusableTableViewCell
+        let cell = homeTableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! ReusableTableViewCell
         cell.dari.text       = home[indexPath.row].dari
         cell.english.text    = home[indexPath.row].english
         cell.imageItem.image = home[indexPath.row].resizeImage(image: UIImage(named: home[indexPath.row].image)!, targetSize: CGSize(width: 100, height: 100))
