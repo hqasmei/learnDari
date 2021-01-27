@@ -16,23 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Dvg-wO-2BS">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="OIu-My-r1Z">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hTh-Iw-vEi">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="estimatedItemSize" width="130" height="130"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eZg-fD-m9L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Dvg-wO-2BS" firstAttribute="trailing" secondItem="eZg-fD-m9L" secondAttribute="trailing" id="JI4-eL-m3g"/>
-                            <constraint firstItem="Dvg-wO-2BS" firstAttribute="top" secondItem="eZg-fD-m9L" secondAttribute="top" id="S8E-7L-r0u"/>
-                            <constraint firstItem="Dvg-wO-2BS" firstAttribute="bottom" secondItem="eZg-fD-m9L" secondAttribute="bottom" id="hfd-fq-fE3"/>
-                            <constraint firstItem="Dvg-wO-2BS" firstAttribute="leading" secondItem="eZg-fD-m9L" secondAttribute="leading" id="ziJ-Te-uRH"/>
+                            <constraint firstItem="OIu-My-r1Z" firstAttribute="top" secondItem="ibe-lz-A5L" secondAttribute="top" constant="88" id="9f5-3k-mv1"/>
+                            <constraint firstAttribute="trailing" secondItem="OIu-My-r1Z" secondAttribute="trailing" id="Srz-HA-rKT"/>
+                            <constraint firstAttribute="bottom" secondItem="OIu-My-r1Z" secondAttribute="bottom" constant="83" id="oXz-RC-9gp"/>
+                            <constraint firstItem="OIu-My-r1Z" firstAttribute="leading" secondItem="ibe-lz-A5L" secondAttribute="leading" id="y6S-bw-Sqq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BE0-UL-mvj"/>
                     <connections>
-                        <outlet property="homeTableView" destination="Dvg-wO-2BS" id="Ksd-dM-nXc"/>
+                        <outlet property="collectionView" destination="OIu-My-r1Z" id="FJe-f9-UuK"/>
                         <segue destination="2fh-ak-M3q" kind="show" identifier="HomeToData" id="bXY-HR-EDB"/>
                     </connections>
                 </viewController>

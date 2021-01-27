@@ -17,6 +17,8 @@ struct K {
     static let dataTableViewIdentifier = "DataTableViewCell"
     static let dataCellIdentifier      = "DataCell"
     
+    static let homeCollectionViewIdentifier = "HomeCollectionViewCell"
+    static let homeCellIdentifier           = "HomeCell"
     
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
