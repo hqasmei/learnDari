@@ -1,0 +1,62 @@
+[
+
+	{
+        "dari"    : "Shanbeh",
+        "english" : "Saturday",
+        "image"   : "shanbeh",
+        "sound"   : "shanbeh"
+    },
+
+    {
+        "dari"    : "Yakshanbeh",
+        "english" : "Sunday",
+        "image"   : "yakshanbeh",
+        "sound"   : "yakshanbeh"
+    },
+
+
+	{
+        "dari"    : "Doshanbeh",
+        "english" : "Monday",
+        "image"   : "doshanbeh",
+        "sound"   : "doshanbeh"
+    },
+
+
+	{
+        "dari"    : "Seshanbeh",
+        "english" : "Tuesday",
+        "image"   : "seshanbeh",
+        "sound"   : "seshanbeh"
+    },
+
+
+	{
+        "dari"    : "Charshanbeh",
+        "english" : "Wednesday",
+        "image"   : "charshanbeh",
+        "sound"   : "charshanbeh"
+    },
+
+
+	{
+        "dari"    : "Panjshanbeh",
+        "english" : "Thursday",
+        "image"   : "panjshanbeh",
+        "sound"   : "panjshanbeh"
+    },
+
+    {
+        "dari"    : "Juma",
+        "english" : "Friday",
+        "image"   : "juma",
+        "sound"   : "juma"
+    }
+
+]
+
+
+
+
+
+

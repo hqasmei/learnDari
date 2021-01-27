@@ -1,0 +1,268 @@
+[
+    {
+        "dari"    : "sefr",
+        "english" : "zero",
+        "image"   : "sefr",
+        "sound"   : "sefr"
+    },
+    
+    {
+        "dari"    : "yak",
+        "english" : "one",
+        "image"   : "yak",
+        "sound"   : "yak"
+    },
+    
+    {
+        "dari"    : "dou",
+        "english" : "two",
+        "image"   : "dou",
+        "sound"   : "dou"
+    },
+    
+    {
+        "dari"    : "se",
+        "english" : "three",
+        "image"   : "se",
+        "sound"   : "se"
+    },
+    
+    {
+        "dari"    : "chahar",
+        "english" : "four",
+        "image"   : "chahar",
+        "sound"   : "chahar"
+    },
+    
+    {
+        "dari"    : "panj",
+        "english" : "five",
+        "image"   : "panj",
+        "sound"   : "panj"
+    },
+    
+    {
+        "dari"    : "shash",
+        "english" : "six",
+        "image"   : "shash",
+        "sound"   : "shash"
+    },
+    
+    {
+        "dari"    : "haft",
+        "english" : "seven",
+        "image"   : "haft",
+        "sound"   : "haft"
+    },
+    
+    {
+        "dari"    : "hashst",
+        "english" : "eight",
+        "image"   : "hashst",
+        "sound"   : "hashst"
+    },
+    
+    {
+        "dari"    : "noh",
+        "english" : "nine",
+        "image"   : "noh",
+        "sound"   : "noh"
+    },
+    
+    {
+        "dari"    : "dah",
+        "english" : "ten",
+        "image"   : "dah",
+        "sound"   : "dah"
+    },
+    
+    {
+        "dari"    : "yazdeh",
+        "english" : "eleven",
+        "image"   : "yazdeh",
+        "sound"   : "yazdeh"
+    },
+    
+    {
+        "dari"    : "dowazdah",
+        "english" : "twelve",
+        "image"   : "dowazdah",
+        "sound"   : "dowazdah"
+    },
+    
+    {
+        "dari"    : "sizdah",
+        "english" : "thirteen",
+        "image"   : "sizdah",
+        "sound"   : "sizdah"
+    },
+    
+    {
+        "dari"    : "chahardah",
+        "english" : "fourteen",
+        "image"   : "chahardah",
+        "sound"   : "chahardah"
+    },
+    
+    {
+        "dari"    : "panzdah",
+        "english" : "fifteen",
+        "image"   : "panzdah",
+        "sound"   : "panzdah"
+    },
+    
+    {
+        "dari"    : "shanzdah",
+        "english" : "sixteen",
+        "image"   : "shanzdah",
+        "sound"   : "shanzdah"
+    },
+    
+    {
+        "dari"    : "havdah",
+        "english" : "seventeen",
+        "image"   : "havdah",
+        "sound"   : "havdah"
+    },
+    
+    {
+        "dari"    : "hajdah",
+        "english" : "eighteen",
+        "image"   : "hajdah",
+        "sound"   : "hajdah"
+    },
+    
+    {
+        "dari"    : "nozdah",
+        "english" : "nineteen",
+        "image"   : "nozdah",
+        "sound"   : "nozdah"
+    },
+    
+    {
+        "dari"    : "bist",
+        "english" : "twenty",
+        "image"   : "bist",
+        "sound"   : "bist"
+    },
+    
+    {
+        "dari"    : "bist o yak",
+        "english" : "twenty one",
+        "image"   : "bist o yak",
+        "sound"   : "bist o yak"
+    },
+    
+    {
+        "dari"    : "bist o dou",
+        "english" : "twenty two",
+        "image"   : "bist o dou",
+        "sound"   : "bist o dou"
+    },
+    
+    {
+        "dari"    : "bist o se",
+        "english" : "twenty three",
+        "image"   : "bist o se",
+        "sound"   : "bist o se"
+    },
+    
+    {
+        "dari"    : "bist o chahar",
+        "english" : "twenty four",
+        "image"   : "bist o chahar",
+        "sound"   : "bist o chahar"
+    },
+    
+    {
+        "dari"    : "bist o panj",
+        "english" : "twenty five",
+        "image"   : "bist o panj",
+        "sound"   : "bist o panj"
+    },
+    
+    {
+        "dari"    : "bist o shash",
+        "english" : "twenty six",
+        "image"   : "bist o shash",
+        "sound"   : "bist o shash"
+    },
+    
+    {
+        "dari"    : "bist o haft",
+        "english" : "twenty seven",
+        "image"   : "bist o haft",
+        "sound"   : "bist o haft"
+    },
+    
+    {
+        "dari"    : "bist o hasht",
+        "english" : "twenty eight",
+        "image"   : "bist o hasht",
+        "sound"   : "bist o hasht"
+    },
+    
+    {
+        "dari"    : "bist o noh",
+        "english" : "twenty nine",
+        "image"   : "bist o noh",
+        "sound"   : "bist o noh"
+    },
+    
+    {
+        "dari"    : "si",
+        "english" : "thirty",
+        "image"   : "si",
+        "sound"   : "si"
+    },
+    
+    {
+        "dari"    : "chehel",
+        "english" : "forty",
+        "image"   : "chehel",
+        "sound"   : "chehel"
+    },
+    
+    {
+        "dari"    : "panjah",
+        "english" : "fifty",
+        "image"   : "panjah",
+        "sound"   : "panjah"
+    },
+    
+    {
+        "dari"    : "shast",
+        "english" : "sixty",
+        "image"   : "shast",
+        "sound"   : "shast"
+    },
+    
+    {
+        "dari"    : "haftad",
+        "english" : "seventy",
+        "image"   : "haftad",
+        "sound"   : "haftad"
+    },
+    
+    {
+        "dari"    : "hashtad",
+        "english" : "eighty",
+        "image"   : "hashtad",
+        "sound"   : "hashtad"
+    },
+    
+    {
+        "dari"    : "nawad",
+        "english" : "ninety",
+        "image"   : "nawad",
+        "sound"   : "nawad"
+    },
+    
+    {
+        "dari"    : "sad",
+        "english" : "one hundred",
+        "image"   : "sad",
+        "sound"   : "sad"
+    }
+]
+

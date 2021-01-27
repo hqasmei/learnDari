@@ -4,7 +4,6 @@
 //
 //  Created by Hosna Qasmei on 1/25/21.
 //
-
 import UIKit
 
 class DataViewController: UIViewController {
@@ -16,6 +15,7 @@ class DataViewController: UIViewController {
     var dariLabel    = ""
     var englishLabel = ""
     var image        = ""
+    var sound        = ""
     
     override func viewDidLoad() {
        super.viewDidLoad()
@@ -30,6 +30,14 @@ class DataViewController: UIViewController {
        tableView.dataSource = self
        tableView.register(UINib(nibName: K.dataTableViewIdentifier, bundle: nil), forCellReuseIdentifier: K.dataCellIdentifier)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        if let selectionIndexPath = self.tableView.indexPathForSelectedRow {
+            self.tableView.deselectRow(at: selectionIndexPath, animated: animated)
+        }
+    }
 }
 
 extension DataViewController: UITableViewDelegate{
@@ -38,7 +46,7 @@ extension DataViewController: UITableViewDelegate{
         dariLabel    = row[indexPath[1]].dari
         englishLabel = row[indexPath[1]].english
         image        = row[indexPath[1]].image
-        
+        sound        = row[indexPath[1]].sound
         performSegue(withIdentifier: K.dataToSubDataSegue, sender: self)
     }
     
@@ -47,7 +55,9 @@ extension DataViewController: UITableViewDelegate{
         vc.dariText    = self.dariLabel
         vc.englishText = self.englishLabel
         vc.imageText   = self.image
+        vc.soundText   = self.sound
     }
+    
 }
 
 extension DataViewController: UITableViewDataSource{
@@ -64,5 +74,3 @@ extension DataViewController: UITableViewDataSource{
        return cell
    }
 }
-
-

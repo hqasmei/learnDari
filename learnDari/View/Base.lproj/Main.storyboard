@@ -11,7 +11,6 @@
         <!--Home View Controller-->
         <scene sceneID="YhL-df-AYp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fnD-Xs-JyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="gMw-Sq-ZLt" customClass="HomeViewController" customModule="learnDari" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibe-lz-A5L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -37,6 +36,7 @@
                         <segue destination="2fh-ak-M3q" kind="show" identifier="HomeToData" id="bXY-HR-EDB"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fnD-Xs-JyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="80" y="1583"/>
         </scene>
@@ -103,16 +103,27 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7y-J2-YzI">
+                                <rect key="frame" x="179" y="492" width="56" height="39.5"/>
+                                <state key="normal" image="speaker.wave.2" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="40"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedSound:" destination="AFC-1N-mp6" eventType="touchUpInside" id="siI-oS-bgO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m8S-rP-if5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Uzs-eX-bDi" firstAttribute="leading" secondItem="m8S-rP-if5" secondAttribute="leading" constant="52" id="1iK-BY-mCj"/>
+                            <constraint firstItem="R7y-J2-YzI" firstAttribute="centerX" secondItem="nlr-tg-P0D" secondAttribute="centerX" id="3NL-wX-uEr"/>
                             <constraint firstItem="2O7-eL-Bzv" firstAttribute="top" secondItem="Uzs-eX-bDi" secondAttribute="bottom" constant="25" id="BbC-nB-BBe"/>
                             <constraint firstItem="2O7-eL-Bzv" firstAttribute="leading" secondItem="m8S-rP-if5" secondAttribute="leading" constant="52" id="Ngj-w3-K9p"/>
                             <constraint firstItem="m8S-rP-if5" firstAttribute="trailing" secondItem="2O7-eL-Bzv" secondAttribute="trailing" constant="52" id="OBH-S3-2N4"/>
                             <constraint firstItem="Uzs-eX-bDi" firstAttribute="top" secondItem="m8S-rP-if5" secondAttribute="top" constant="52" id="dpn-Yh-Etw"/>
                             <constraint firstItem="m8S-rP-if5" firstAttribute="trailing" secondItem="Uzs-eX-bDi" secondAttribute="trailing" constant="52" id="kQH-Te-SdG"/>
+                            <constraint firstItem="R7y-J2-YzI" firstAttribute="top" secondItem="2O7-eL-Bzv" secondAttribute="bottom" constant="30" id="w9O-ec-quR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fRa-Fy-5TG"/>
@@ -185,6 +196,7 @@
     <resources>
         <image name="icons8-home" width="24" height="24"/>
         <image name="icons8-info" width="24" height="24"/>
+        <image name="speaker.wave.2" catalog="system" width="128" height="90"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

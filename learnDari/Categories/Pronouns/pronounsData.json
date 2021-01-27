@@ -1,0 +1,43 @@
+[
+    {
+        "dari"    : "man",
+        "english" : "I",
+        "image"   : "man",
+        "sound"   : "man"
+    },
+    
+    {
+        "dari"    : "to",
+        "english" : "you (informal)",
+        "image"   : "to",
+        "sound"   : "to"
+    },
+    
+    {
+        "dari"    : "shuma",
+        "english" : "you (formal)",
+        "image"   : "shuma",
+        "sound"   : "shuma"
+    },
+    
+    {
+        "dari"    : "ao",
+        "english" : "he/she/it",
+        "image"   : "ao",
+        "sound"   : "ao"
+    },
+    
+    {
+        "dari"    : "ma",
+        "english" : "we",
+        "image"   : "ma",
+        "sound"   : "ma"
+    },
+    
+    {
+        "dari"    : "anha",
+        "english" : "they",
+        "image"   : "anha",
+        "sound"   : "anha"
+    }
+]

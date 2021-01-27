@@ -1,0 +1,39 @@
+[
+    {
+        "dari"    : "Huruf",
+        "english" : "Alphabet",
+        "image"   : "huruf",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Addad",
+        "english" : "Numbers",
+        "image"   : "addad",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Tahneyat",
+        "english" : "Greetings",
+        "image"   : "tahneyat",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Zemayer",
+        "english" : "Pronouns",
+        "image"   : "zemayer",
+        "sound"   : ""
+    },
+    
+    {
+        "dari"    : "Rozhai",
+        "english" : "Days",
+        "image"   : "rozhai",
+        "sound"   : ""
+    }
+    
+]
+
+
