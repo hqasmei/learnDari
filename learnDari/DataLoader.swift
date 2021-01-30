@@ -37,8 +37,6 @@ public class DataLoader {
     
     func selectData(rowSelected: String) -> String{
         switch rowSelected {
-            case K.home:
-                return K.homeJsonFile
             case K.alphabet:
                 return K.alphabetJsonFile
             case K.numbers:
@@ -51,7 +49,7 @@ public class DataLoader {
                 return K.daysJsonFile
             
             default:
-                return K.homeJsonFile
+                return K.flashcardsJsonFile
         }
     }
 

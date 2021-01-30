@@ -1,14 +1,16 @@
 //
-//  AboutViewController.swift
+//  ViewController.swift
 //  learnDari
 //
-//  Created by Hosna Qasmei on 1/18/21.
+//  Created by Hosna Qasmei on 1/29/21.
 //
 
 import UIKit
 
-class InfoViewController: UIViewController {
+class ViewController: UIViewController {
 
+    var rowSelected = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

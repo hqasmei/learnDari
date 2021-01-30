@@ -1,16 +1,16 @@
 //
-//  HomeCollectionViewCell.swift
+//  FlashcardsCollectionViewCell.swift
 //  learnDari
 //
-//  Created by Hosna Qasmei on 1/27/21.
+//  Created by Hosna Qasmei on 1/30/21.
 //
 
 import UIKit
 
-class HomeCollectionViewCell: UICollectionViewCell {
+class FlashcardsCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var imageLabel: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
