@@ -34,7 +34,8 @@ class CategoriesTableViewCell: UITableViewCell {
 
 extension CategoriesTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3 //(temp?.flashcards.count)!
+        let cards = (temp?.flashcards.count)!
+        return cards
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -47,7 +48,7 @@ extension CategoriesTableViewCell: UICollectionViewDelegate, UICollectionViewDat
     }
 
     func collectionView(_ collectionView: UICollectionView, layout colectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
-        return CGSize(width: 500, height: 500)
+        return CGSize(width: 170, height: 230)
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -57,4 +58,7 @@ extension CategoriesTableViewCell: UICollectionViewDelegate, UICollectionViewDat
         flashcardsViewController?.showAppDetailForApp(flashcard: flashcard)
     }
 
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
 }

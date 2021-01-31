@@ -9,6 +9,7 @@ import UIKit
 
 class FlashcardsCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var view: UIView!
     @IBOutlet weak var imageLabel: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
     override func awakeFromNib() {

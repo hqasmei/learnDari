@@ -49,15 +49,10 @@
 		089319A125C5EC460027FD2F /* ao.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 089318C825C5EC460027FD2F /* ao.m4a */; };
 		089319A225C5EC460027FD2F /* to.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 089318C925C5EC460027FD2F /* to.m4a */; };
 		089319A325C5EC460027FD2F /* pronounsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 089318CA25C5EC460027FD2F /* pronounsData.json */; };
-		089319A425C5EC460027FD2F /* rozhai.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318CD25C5EC460027FD2F /* rozhai.png */; };
-		089319A525C5EC460027FD2F /* addad.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318CE25C5EC460027FD2F /* addad.png */; };
-		089319A625C5EC460027FD2F /* tahneyat.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318CF25C5EC460027FD2F /* tahneyat.png */; };
 		089319A725C5EC460027FD2F /* numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318D025C5EC460027FD2F /* numbers.png */; };
 		089319A825C5EC460027FD2F /* greetings.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318D125C5EC460027FD2F /* greetings.png */; };
-		089319A925C5EC460027FD2F /* huruf.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318D225C5EC460027FD2F /* huruf.png */; };
 		089319AA25C5EC460027FD2F /* alphabet.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318D325C5EC460027FD2F /* alphabet.png */; };
 		089319AB25C5EC460027FD2F /* days.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318D425C5EC460027FD2F /* days.png */; };
-		089319AC25C5EC460027FD2F /* zemayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318D525C5EC460027FD2F /* zemayer.png */; };
 		089319AD25C5EC460027FD2F /* pronouns.png in Resources */ = {isa = PBXBuildFile; fileRef = 089318D625C5EC460027FD2F /* pronouns.png */; };
 		089319AE25C5EC460027FD2F /* flashcardsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 089318D725C5EC460027FD2F /* flashcardsData.json */; };
 		089319AF25C5EC460027FD2F /* numbersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 089318DA25C5EC460027FD2F /* numbersData.json */; };
@@ -227,6 +222,11 @@
 		08931A5325C5EC460027FD2F /* greetingsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0893198725C5EC460027FD2F /* greetingsData.json */; };
 		08931A6025C5F1440027FD2F /* FlashcardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08931A5E25C5F1440027FD2F /* FlashcardsCollectionViewCell.swift */; };
 		08931A6125C5F1440027FD2F /* FlashcardsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08931A5F25C5F1440027FD2F /* FlashcardsCollectionViewCell.xib */; };
+		08931A6A25C613060027FD2F /* age.png in Resources */ = {isa = PBXBuildFile; fileRef = 08931A6925C613060027FD2F /* age.png */; };
+		08931A6D25C613150027FD2F /* occupations.png in Resources */ = {isa = PBXBuildFile; fileRef = 08931A6C25C613150027FD2F /* occupations.png */; };
+		08931A7025C613A90027FD2F /* verbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 08931A6F25C613A90027FD2F /* verbs.png */; };
+		08931A7325C613B20027FD2F /* nouns.png in Resources */ = {isa = PBXBuildFile; fileRef = 08931A7225C613B20027FD2F /* nouns.png */; };
+		08931A7625C613D50027FD2F /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 08931A7525C613D50027FD2F /* time.png */; };
 		08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531325B63DFF00E8E778 /* AppDelegate.swift */; };
 		08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531525B63DFF00E8E778 /* SceneDelegate.swift */; };
 		08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531925B63DFF00E8E778 /* Main.storyboard */; };
@@ -279,15 +279,10 @@
 		089318C825C5EC460027FD2F /* ao.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ao.m4a; sourceTree = "<group>"; };
 		089318C925C5EC460027FD2F /* to.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = to.m4a; sourceTree = "<group>"; };
 		089318CA25C5EC460027FD2F /* pronounsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pronounsData.json; sourceTree = "<group>"; };
-		089318CD25C5EC460027FD2F /* rozhai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rozhai.png; sourceTree = "<group>"; };
-		089318CE25C5EC460027FD2F /* addad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addad.png; sourceTree = "<group>"; };
-		089318CF25C5EC460027FD2F /* tahneyat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tahneyat.png; sourceTree = "<group>"; };
 		089318D025C5EC460027FD2F /* numbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numbers.png; sourceTree = "<group>"; };
 		089318D125C5EC460027FD2F /* greetings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greetings.png; sourceTree = "<group>"; };
-		089318D225C5EC460027FD2F /* huruf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huruf.png; sourceTree = "<group>"; };
 		089318D325C5EC460027FD2F /* alphabet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alphabet.png; sourceTree = "<group>"; };
 		089318D425C5EC460027FD2F /* days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = days.png; sourceTree = "<group>"; };
-		089318D525C5EC460027FD2F /* zemayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zemayer.png; sourceTree = "<group>"; };
 		089318D625C5EC460027FD2F /* pronouns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pronouns.png; sourceTree = "<group>"; };
 		089318D725C5EC460027FD2F /* flashcardsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flashcardsData.json; sourceTree = "<group>"; };
 		089318DA25C5EC460027FD2F /* numbersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numbersData.json; sourceTree = "<group>"; };
@@ -457,6 +452,11 @@
 		0893198725C5EC460027FD2F /* greetingsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = greetingsData.json; sourceTree = "<group>"; };
 		08931A5E25C5F1440027FD2F /* FlashcardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsCollectionViewCell.swift; sourceTree = "<group>"; };
 		08931A5F25C5F1440027FD2F /* FlashcardsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlashcardsCollectionViewCell.xib; sourceTree = "<group>"; };
+		08931A6925C613060027FD2F /* age.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = age.png; sourceTree = "<group>"; };
+		08931A6C25C613150027FD2F /* occupations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = occupations.png; sourceTree = "<group>"; };
+		08931A6F25C613A90027FD2F /* verbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verbs.png; sourceTree = "<group>"; };
+		08931A7225C613B20027FD2F /* nouns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nouns.png; sourceTree = "<group>"; };
+		08931A7525C613D50027FD2F /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
 		08CA531025B63DFF00E8E778 /* learnDari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnDari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA531325B63DFF00E8E778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA531525B63DFF00E8E778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -482,11 +482,11 @@
 		089318A625C5EC450027FD2F /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				089318A725C5EC450027FD2F /* Time and Dates */,
-				089318BA25C5EC450027FD2F /* Grammar */,
 				089318CB25C5EC460027FD2F /* Flashcards */,
 				089318D825C5EC460027FD2F /* TBD */,
 				0893196D25C5EC460027FD2F /* Meeting People */,
+				089318A725C5EC450027FD2F /* Time and Dates */,
+				089318BA25C5EC450027FD2F /* Grammar */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -593,15 +593,15 @@
 		089318CC25C5EC460027FD2F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				089318CD25C5EC460027FD2F /* rozhai.png */,
-				089318CE25C5EC460027FD2F /* addad.png */,
-				089318CF25C5EC460027FD2F /* tahneyat.png */,
 				089318D025C5EC460027FD2F /* numbers.png */,
+				08931A6C25C613150027FD2F /* occupations.png */,
+				08931A6F25C613A90027FD2F /* verbs.png */,
 				089318D125C5EC460027FD2F /* greetings.png */,
-				089318D225C5EC460027FD2F /* huruf.png */,
 				089318D325C5EC460027FD2F /* alphabet.png */,
+				08931A6925C613060027FD2F /* age.png */,
+				08931A7225C613B20027FD2F /* nouns.png */,
+				08931A7525C613D50027FD2F /* time.png */,
 				089318D425C5EC460027FD2F /* days.png */,
-				089318D525C5EC460027FD2F /* zemayer.png */,
 				089318D625C5EC460027FD2F /* pronouns.png */,
 			);
 			path = Images;
@@ -997,18 +997,19 @@
 				0893199D25C5EC460027FD2F /* ma.m4a in Resources */,
 				08931A2625C5EC460027FD2F /* khay.m4a in Resources */,
 				08931A4D25C5EC460027FD2F /* Tashakor.m4a in Resources */,
+				08931A6D25C613150027FD2F /* occupations.png in Resources */,
 				0893199725C5EC460027FD2F /* ma.png in Resources */,
 				089316AD25C3DDB80027FD2F /* CategoriesTableViewCell.xib in Resources */,
 				0893199C25C5EC460027FD2F /* to.png in Resources */,
 				089319F525C5EC460027FD2F /* bist o haft.m4a in Resources */,
 				08931A4225C5EC460027FD2F /* Az kaja hasted?.png in Resources */,
-				089319A525C5EC460027FD2F /* addad.png in Resources */,
 				08931A0025C5EC460027FD2F /* gaaf.png in Resources */,
 				0893198B25C5EC460027FD2F /* charshanbeh.png in Resources */,
 				089319A825C5EC460027FD2F /* greetings.png in Resources */,
 				08931A2F25C5EC460027FD2F /* thay.m4a in Resources */,
 				08931A4C25C5EC460027FD2F /* Khob astum.m4a in Resources */,
 				08931A4525C5EC460027FD2F /* Khuda hafez.png in Resources */,
+				08931A6A25C613060027FD2F /* age.png in Resources */,
 				0893199925C5EC460027FD2F /* shuma.png in Resources */,
 				089319D725C5EC460027FD2F /* dou.m4a in Resources */,
 				08931A2025C5EC460027FD2F /* noon.m4a in Resources */,
@@ -1077,7 +1078,6 @@
 				08931A3E25C5EC460027FD2F /* Khob astum.png in Resources */,
 				08931A0E25C5EC460027FD2F /* zhay.png in Resources */,
 				08931A4925C5EC460027FD2F /* Shab bakhir.m4a in Resources */,
-				089319A925C5EC460027FD2F /* huruf.png in Resources */,
 				08931A3A25C5EC460027FD2F /* jeem.m4a in Resources */,
 				089319FC25C5EC460027FD2F /* zaal.png in Resources */,
 				08931A3225C5EC460027FD2F /* sheen.m4a in Resources */,
@@ -1125,7 +1125,6 @@
 				0893199F25C5EC460027FD2F /* anha.m4a in Resources */,
 				089319DD25C5EC460027FD2F /* hashst.m4a in Resources */,
 				08931A0125C5EC460027FD2F /* noon.png in Resources */,
-				089319A625C5EC460027FD2F /* tahneyat.png in Resources */,
 				08931A0D25C5EC460027FD2F /* ghain.png in Resources */,
 				089319D025C5EC460027FD2F /* panzdah.png in Resources */,
 				089319AA25C5EC460027FD2F /* alphabet.png in Resources */,
@@ -1153,13 +1152,14 @@
 				089319B625C5EC460027FD2F /* panjah.png in Resources */,
 				089319BE25C5EC460027FD2F /* bist.png in Resources */,
 				08931A2425C5EC460027FD2F /* meem.m4a in Resources */,
+				08931A7325C613B20027FD2F /* nouns.png in Resources */,
 				089319C225C5EC460027FD2F /* sefr.png in Resources */,
 				0893199025C5EC460027FD2F /* yakshanbeh.m4a in Resources */,
 				08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */,
+				08931A7025C613A90027FD2F /* verbs.png in Resources */,
 				089319EC25C5EC460027FD2F /* bist o panj.m4a in Resources */,
 				089319CC25C5EC460027FD2F /* shast.png in Resources */,
 				08931A2A25C5EC460027FD2F /* alef.m4a in Resources */,
-				089319A425C5EC460027FD2F /* rozhai.png in Resources */,
 				0893198F25C5EC460027FD2F /* juma.m4a in Resources */,
 				08931A4025C5EC460027FD2F /* Sobh bakhir.png in Resources */,
 				089319E425C5EC460027FD2F /* shash.m4a in Resources */,
@@ -1168,6 +1168,7 @@
 				08931A4825C5EC460027FD2F /* Nametan cist?.png in Resources */,
 				08931A2B25C5EC460027FD2F /* toy.m4a in Resources */,
 				08931A3C25C5EC460027FD2F /* alphabetData.json in Resources */,
+				08931A7625C613D50027FD2F /* time.png in Resources */,
 				08931A4F25C5EC460027FD2F /* Az kaja hasted?.m4a in Resources */,
 				08931A4E25C5EC460027FD2F /* Khuda hafez.m4a in Resources */,
 				089319D925C5EC460027FD2F /* dah.m4a in Resources */,
@@ -1196,7 +1197,6 @@
 				08931A5325C5EC460027FD2F /* greetingsData.json in Resources */,
 				08931A1425C5EC460027FD2F /* thay.png in Resources */,
 				089319E125C5EC460027FD2F /* bist o noh.m4a in Resources */,
-				089319AC25C5EC460027FD2F /* zemayer.png in Resources */,
 				08931A2C25C5EC460027FD2F /* seen.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

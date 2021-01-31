@@ -2,19 +2,19 @@
     {
         "category"    : "Meeting People",
         "flashcards"  : ["Greetings", "Age", "Occupations"],
-        "images"      : ["greetings","greetings","greetings"]
+        "images"      : ["greetings", "age", "occupations"]
     },
     
     {
         "category"    : "Grammar",
         "flashcards"  : ["Pronouns", "Nouns", "Verbs"],
-        "images"      : ["pronouns","pronouns","pronouns"]
+        "images"      : ["pronouns", "nouns", "verbs"]
     },
     
     {
         "category"    : "Time and Dates",
-        "flashcards"  : ["Telling Time", "Days", "Months"],
-        "images"      : ["alphabet","alphabet","alphabet"]
+        "flashcards"  : ["Telling Time", "Days"],
+        "images"      : ["time","days"]
     }
 ]
 

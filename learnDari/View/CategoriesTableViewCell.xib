@@ -35,6 +35,7 @@
                     </label>
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <color key="tintColor" systemColor="linkColor"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="B35-mO-YFt" secondAttribute="bottom" constant="5" id="D34-Xs-eI8"/>
                     <constraint firstItem="B35-mO-YFt" firstAttribute="top" secondItem="zPu-gj-Nqg" secondAttribute="bottom" constant="15" id="I2k-Dp-TBg"/>
@@ -55,6 +56,9 @@
         </tableViewCell>
     </objects>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

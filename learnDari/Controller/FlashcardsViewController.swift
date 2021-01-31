@@ -50,7 +50,7 @@ extension FlashcardsViewController: UITableViewDelegate, UITableViewDataSource{
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-        return 600
+        return 300
     }
 
     func showAppDetailForApp(flashcard: String){
