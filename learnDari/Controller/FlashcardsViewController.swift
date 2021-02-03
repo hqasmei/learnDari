@@ -22,7 +22,7 @@ class FlashcardsViewController: UIViewController{
         for i in 0..<data.count{
             flashcards.append(CategoryItem(category: data[i].category, flashcards: data[i].flashcards, images: data[i].images))
         }
-
+        
         tableView.delegate   = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: K.categoriesTableViewIdentifier, bundle: nil), forCellReuseIdentifier: K.categoriesCellIdentifier)
@@ -50,7 +50,7 @@ extension FlashcardsViewController: UITableViewDelegate, UITableViewDataSource{
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-        return 300
+        return 350
     }
 
     func showAppDetailForApp(flashcard: String){

@@ -24,7 +24,7 @@ class SubDataViewController: UIViewController {
         super.viewDidLoad()
         dari.text    = dariText
         english.text = englishText
-        image.image  = UIImage(named: imageText)
+//        image.image  = UIImage(named: imageText)
     }
     
     @IBAction func pressedSound(_ sender: UIButton) {
@@ -39,3 +39,4 @@ class SubDataViewController: UIViewController {
         player.play()
     }
 }
+

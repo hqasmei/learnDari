@@ -53,7 +53,6 @@ extension CategoriesTableViewCell: UICollectionViewDelegate, UICollectionViewDat
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let currentCell = collectionView.cellForItem(at: indexPath)! as! FlashcardsCollectionViewCell
-
         let flashcard = currentCell.textLabel.text!
         flashcardsViewController?.showAppDetailForApp(flashcard: flashcard)
     }

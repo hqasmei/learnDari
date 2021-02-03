@@ -1,0 +1,21 @@
+[
+    {
+        "category"    : "Meeting People",
+        "flashcards"  : ["Greetings", "Age", "Occupations"],
+        "images"      : ["greetings", "age", "occupations"]
+    },
+    
+    {
+        "category"    : "Grammar",
+        "flashcards"  : ["Pronouns", "Nouns", "Verbs"],
+        "images"      : ["pronouns", "nouns", "verbs"]
+    },
+    
+    {
+        "category"    : "Time and Dates",
+        "flashcards"  : ["Tellings Time", "Days", "Months"],
+        "images"      : ["time", "days", "months"]
+    }
+]
+
+

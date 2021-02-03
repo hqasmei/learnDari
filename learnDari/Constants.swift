@@ -17,10 +17,6 @@ struct K {
     static let dataTableViewIdentifier = "DataTableViewCell"
     static let dataCellIdentifier      = "DataCell"
     
-    
-    
-    
-    
     // ======================================================================
     // Flashcards
     static let flashcards                         = "Flashcards"
@@ -33,52 +29,21 @@ struct K {
     static let flashcardsCollectionViewIdentifier = "FlashcardsCollectionViewCell"
     static let flashcardsCellIdentifier           = "FlashcardsCell"
     
-    
-    // ======================================================================
-    // Vocabulary
-    
-    
-    
-    
-    
-    
-    
-    
+    static let vocabularyToSubDataSegue           = "VocabularyToSubData"
     
     // ======================================================================
     // Sections
+    static let sectionData: [String:String] = [ "Greetings"   :"greetingsData",
+                                                "Age"         :"ageData",
+                                                "Occupations" :"occupationsData",
+                                                "Pronouns"    :"pronounsData",
+                                                "Nouns"       :"nounsData",
+                                                "Verbs"       :"verbsData",
+                                                "Telling Time":"tellingtimeData",
+                                                "Days"        :"daysData",
+                                                "Months"      :"monthsData",
+                                                "Alphabet"    :"alphabetData",
+                                                "Numbers"     :"numbersData"
+                                                ]
     
-    // Meeting People
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    // Greetings
-    static let greetings         = "Greetings"
-    static let greetingsJsonFile = "greetingsData"
-    
-    
-    
-    // Grammar
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    // Pronouns
-    static let pronouns          = "Pronouns"
-    static let pronounsJsonFile  = "pronounsData"
-    
-    
-    // Time and Dates
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    // Days
-    static let days              = "Days"
-    static let daysJsonFile      = "daysData"
-    
-    
-    
-    
-    // TBD
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    // Alphabet
-    static let alphabet          = "Alphabet"
-    static let alphabetJsonFile  = "alphabetData"
-    // Numbers
-    static let numbers           = "Numbers"
-    static let numbersJsonFile   = "numbersData"
-   
 }

@@ -23,11 +23,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="9ua-eG-IAV">
                                 <rect key="frame" x="0.0" y="0.0" width="227" height="341"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xtY-tB-bj5">
-                                <rect key="frame" x="20" y="10" width="187" height="230"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xtY-tB-bj5">
+                                <rect key="frame" x="20" y="10" width="187" height="271"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKc-2k-mrg">
-                                <rect key="frame" x="20" y="270" width="187" height="21"/>
+                                <rect key="frame" x="20" y="300" width="187" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,13 +35,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="NKc-2k-mrg" secondAttribute="bottom" constant="20" id="D8u-hK-Tj7"/>
                             <constraint firstAttribute="trailing" secondItem="xtY-tB-bj5" secondAttribute="trailing" constant="20" id="Exu-G5-QJE"/>
                             <constraint firstItem="NKc-2k-mrg" firstAttribute="leading" secondItem="q0S-IB-cLF" secondAttribute="leading" constant="20" id="JnG-ks-P3o"/>
-                            <constraint firstAttribute="bottom" secondItem="NKc-2k-mrg" secondAttribute="bottom" constant="50" id="SvT-L0-c5g"/>
                             <constraint firstItem="xtY-tB-bj5" firstAttribute="top" secondItem="q0S-IB-cLF" secondAttribute="top" constant="10" id="USA-NK-FQC"/>
                             <constraint firstAttribute="trailing" secondItem="9ua-eG-IAV" secondAttribute="trailing" id="VVj-uu-Y0R"/>
+                            <constraint firstAttribute="bottom" secondItem="xtY-tB-bj5" secondAttribute="bottom" constant="60" id="dIt-dF-J3E"/>
                             <constraint firstAttribute="bottom" secondItem="9ua-eG-IAV" secondAttribute="bottom" id="do3-M3-CXo"/>
-                            <constraint firstItem="NKc-2k-mrg" firstAttribute="top" secondItem="xtY-tB-bj5" secondAttribute="bottom" constant="30" id="fOq-9L-pI4"/>
                             <constraint firstItem="xtY-tB-bj5" firstAttribute="leading" secondItem="q0S-IB-cLF" secondAttribute="leading" constant="20" id="nVa-SI-uXE"/>
                             <constraint firstAttribute="trailing" secondItem="NKc-2k-mrg" secondAttribute="trailing" constant="20" id="oJf-fO-vEW"/>
                             <constraint firstItem="9ua-eG-IAV" firstAttribute="top" secondItem="q0S-IB-cLF" secondAttribute="top" id="xI7-iy-Oru"/>
@@ -67,7 +67,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="Rectangle" width="215" height="330"/>
+        <image name="Rectangle" width="71.5" height="110"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

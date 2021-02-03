@@ -9,12 +9,14 @@ import Foundation
 
 public class DataLoader {
     
-    @Published var appData = [AppData]()
+    @Published var items: [RowItem] = []
+    @Published var appData = [RowItem]()
     let rowSelected: String
     
     init(rowSelected: String) {
         self.rowSelected = rowSelected
         load(rowSelected: self.rowSelected)
+        self.items = itemsArr()
     }
     
     func load(rowSelected: String){
@@ -26,7 +28,7 @@ public class DataLoader {
             do{
                 let data         = try Data(contentsOf: fileLocation)
                 let jsonDecoder  = JSONDecoder()
-                let dataFromJson = try jsonDecoder.decode([AppData].self, from: data)
+                let dataFromJson = try jsonDecoder.decode([RowItem].self, from: data)
                 self.appData     = dataFromJson
             }
             catch{
@@ -36,21 +38,23 @@ public class DataLoader {
     }
     
     func selectData(rowSelected: String) -> String{
-        switch rowSelected {
-            case K.alphabet:
-                return K.alphabetJsonFile
-            case K.numbers:
-                return K.numbersJsonFile
-            case K.greetings:
-                return K.greetingsJsonFile
-            case K.pronouns:
-                return K.pronounsJsonFile
-            case K.days:
-                return K.daysJsonFile
-            
-            default:
-                return K.flashcardsJsonFile
+        // TODO: Fix so there is a default handle case
+        var temp = ""
+
+        for (key, value) in K.sectionData{
+           if key == rowSelected{
+             temp = value
+           }
         }
+        return temp
     }
 
+    func itemsArr() -> [RowItem]{
+        let data = self.appData
+        var cards: [RowItem] = []
+        for i in 0..<data.count{
+            cards.append(RowItem(dari: data[i].dari, english: data[i].english, image: data[i].image, sound: data[i].sound))
+        }
+        return data
+    }
 }

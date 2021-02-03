@@ -6,7 +6,7 @@
 //
 import UIKit
 
-struct RowItem {
+struct RowItem: Codable {
     let dari: String
     let english: String
     let image: String
