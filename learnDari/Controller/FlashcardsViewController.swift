@@ -30,9 +30,9 @@ class FlashcardsViewController: UIViewController {
         flashcardImage.addSubview(wordImage)
         
         cards = DataLoader(rowSelected: self.rowSelected).items
-        dariLabel.font    = UIFont(name: K.proximaNovaRegular, size: 28)
+        dariLabel.font    = UIFont(name: K.proximaNovaRegular, size: 24)
         dariLabel.text    = cards[index].dari
-        englishLabel.font = UIFont(name: K.proximaNovaRegular, size: 28)
+        englishLabel.font = UIFont(name: K.proximaNovaRegular, size: 24)
         englishLabel.text = cards[index].english
         wordImage.image   = UIImage(named: cards[index].image)
         
@@ -43,6 +43,8 @@ class FlashcardsViewController: UIViewController {
         englishLabel.isHidden = true
         
     }
+    
+    
     
     @IBAction func flashcardImagePressed(_ sender: UIButton) {
         pressed = !pressed
