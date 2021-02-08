@@ -50,10 +50,10 @@ struct K {
     
     // ======================================================================
     // Sections
-    static let sectionData: [String:String] = [ "Greetings"   :"greetingsData",
-                                                "Days"        :"daysData",
-                                                "Numbers"     :"numbersData"
-    ]
+    static let sectionData: [String:String] = [ "Days"        :"daysData",
+                                                "Numbers"     :"numbersData",
+                                                "Essential Phrases 01":"greetingsData"
+                                                ]
     
 //[ "Greetings"   :"greetingsData",
 //"Age"         :"ageData",
