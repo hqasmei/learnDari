@@ -18,32 +18,61 @@ struct K {
     static let dataCellIdentifier      = "DataCell"
     
     // ======================================================================
-    // Flashcards
-    static let flashcards                         = "Flashcards"
-    static let flashcardsJsonFile                 = "flashcardsData"
-    static let flashcardsToViewSegue              = "FlashcardsToView"
+    // Learn
+    static let learn                            = "Learn"
+    static let learnTableViewIdentifier         = "LearnTableViewCell"
+    static let learnCellIdentifier              = "LearnCell"
     
-    static let categoriesTableViewIdentifier      = "CategoriesTableViewCell"
-    static let categoriesCellIdentifier           = "CategoriesCell"
+    static let categoryCollectionViewIdentifier = "CategoryCollectionViewCell"
+    static let categoryCellIdentifier           = "CategoryCell"
     
-    static let flashcardsCollectionViewIdentifier = "FlashcardsCollectionViewCell"
-    static let flashcardsCellIdentifier           = "FlashcardsCell"
+    static let learnJsonFile                 = "flashcardsData"
+    static let learnToViewSegue              = "LearnToView"
+//    static let learnCollectionViewIdentifier = "FlashcardsCollectionViewCell"
+//    static let learnCellIdentifier           = "FlashcardsCell"
+    
+   
+    
     
     static let vocabularyToSubDataSegue           = "VocabularyToSubData"
+    
+    
+    
+    // ======================================================================
+    // Dictionary
+    static let dictionary                   = "Dictionary"
+    
+    // ======================================================================
+    // Info
+    static let info                         = "Info"
+    
+    
     
     // ======================================================================
     // Sections
     static let sectionData: [String:String] = [ "Greetings"   :"greetingsData",
-                                                "Age"         :"ageData",
-                                                "Occupations" :"occupationsData",
                                                 "Pronouns"    :"pronounsData",
-                                                "Nouns"       :"nounsData",
-                                                "Verbs"       :"verbsData",
-                                                "Telling Time":"tellingtimeData",
                                                 "Days"        :"daysData",
-                                                "Months"      :"monthsData",
                                                 "Alphabet"    :"alphabetData",
-                                                "Numbers"     :"numbersData"
-                                                ]
+                                                "Numbers"     :"numbersData",
+                                                "Essential Phrases 01":"greetingsData"
+    ]
+    
+//[ "Greetings"   :"greetingsData",
+//"Age"         :"ageData",
+//"Occupations" :"occupationsData",
+//"Pronouns"    :"pronounsData",
+//"Nouns"       :"nounsData",
+//"Verbs"       :"verbsData",
+//"Telling Time":"tellingtimeData",
+//"Days"        :"daysData",
+//"Months"      :"monthsData",
+//"Alphabet"    :"alphabetData",
+//"Numbers"     :"numbersData"
+//]
+    // ======================================================================
+    // Other
+    static let proximaNovaRegular         = "ProximaNova-Regular"
+    static let playfairDisplayRegularBold = "PlayfairDisplay-Regular_Bold"
     
 }

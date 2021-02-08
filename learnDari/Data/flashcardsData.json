@@ -1,21 +1,29 @@
 [
     {
-        "category"    : "Meeting People",
-        "flashcards"  : ["Greetings", "Age", "Occupations"],
-        "images"      : ["greetings", "age", "occupations"]
+        "category"    : "Foundation",
+        "flashcards"  : ["Alphabet", "Numbers"],
+        "images"      : ["alphabet", "numbers"]
     },
     
     {
-        "category"    : "Grammar",
-        "flashcards"  : ["Pronouns", "Nouns", "Verbs"],
-        "images"      : ["pronouns", "nouns", "verbs"]
+        "category"    : "Essential Phrases",
+        "flashcards"  : ["Essential Phrases 01", "Essential Phrases 02"],
+        "images"      : ["es01", "es02"]
     },
     
     {
-        "category"    : "Time and Dates",
-        "flashcards"  : ["Tellings Time", "Days", "Months"],
-        "images"      : ["time", "days", "months"]
+        "category"    : "Verbs",
+        "flashcards"  : ["Verbs 01", "Verbs 02"],
+        "images"      : ["v01", "v02"]
+    },
+    
+    {
+        "category"    : "Nouns",
+        "flashcards"  : ["Fruits & Vegetables", "Animals"],
+        "images"      : ["fandv", "animals"]
     }
+    
+    
 ]
 
 

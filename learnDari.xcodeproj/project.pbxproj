@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		0820DA1C25BAB169006758BE /* RowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA1B25BAB169006758BE /* RowItem.swift */; };
 		0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820DA4325BCFFD6006758BE /* DataLoader.swift */; };
-		08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */; };
-		08777E0125BF4FBD00E2725B /* ReusableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */; };
-		08777E0725BF5E3900E2725B /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E0625BF5E3900E2725B /* VocabularyViewController.swift */; };
+		0837BAB225CE5FFE004E9A44 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0837BAAE25CE5FC7004E9A44 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		0837BAB425CE6000004E9A44 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0837BAAF25CE5FC7004E9A44 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		0837BAB625CE6002004E9A44 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0837BAB125CE5FD8004E9A44 /* ProximaNova-Regular.otf */; };
+		0837BABC25CE627A004E9A44 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0837BABB25CE627A004E9A44 /* InfoViewController.swift */; };
+		0837BAC725CE77E1004E9A44 /* LearnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0837BAC525CE77E1004E9A44 /* LearnTableViewCell.swift */; };
+		0837BAC825CE77E1004E9A44 /* LearnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0837BAC625CE77E1004E9A44 /* LearnTableViewCell.xib */; };
+		0837BACC25CE7BA9004E9A44 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0837BACA25CE7BA9004E9A44 /* CategoryCollectionViewCell.swift */; };
+		0837BACD25CE7BA9004E9A44 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0837BACB25CE7BA9004E9A44 /* CategoryCollectionViewCell.xib */; };
+		0837BAD225CE96A3004E9A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0837BAD125CE96A3004E9A44 /* Assets.xcassets */; };
+		0837BAD525CFD13B004E9A44 /* FlashcardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0837BAD425CFD13B004E9A44 /* FlashcardsViewController.swift */; };
+		08777E0725BF5E3900E2725B /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E0625BF5E3900E2725B /* DictionaryViewController.swift */; };
 		08777E0C25BF71B100E2725B /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E0A25BF71B100E2725B /* DataTableViewCell.swift */; };
 		08777E0D25BF71B100E2725B /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08777E0B25BF71B100E2725B /* DataTableViewCell.xib */; };
-		08777E1125BF73CA00E2725B /* SubDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08777E1025BF73CA00E2725B /* SubDataViewController.swift */; };
 		0891C36625C8B4B000A002BB /* numbersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0891C2FD25C8B4B000A002BB /* numbersData.json */; };
 		0891C36725C8B4B000A002BB /* flashcardsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0891C2FE25C8B4B000A002BB /* flashcardsData.json */; };
 		0891C36825C8B4B000A002BB /* bist o se.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0891C30125C8B4B000A002BB /* bist o se.m4a */; };
@@ -121,31 +128,34 @@
 		0891C3D625C8B5EE00A002BB /* verbsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0891C3D325C8B5EE00A002BB /* verbsData.json */; };
 		0891C3D925C8B5F300A002BB /* monthsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0891C3D825C8B5F300A002BB /* monthsData.json */; };
 		0891C3DC25CA12E800A002BB /* ExpandableSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0891C3DB25CA12E800A002BB /* ExpandableSections.swift */; };
+		0891C3E025CB2A3F00A002BB /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0891C3DF25CB2A3F00A002BB /* PracticeViewController.swift */; };
 		089316A125C3CB7A0027FD2F /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089316A025C3CB7A0027FD2F /* CategoryItem.swift */; };
 		089316A725C3CE120027FD2F /* FlashcardsDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089316A625C3CE120027FD2F /* FlashcardsDataLoader.swift */; };
-		089316AC25C3DDB80027FD2F /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089316AA25C3DDB80027FD2F /* CategoriesTableViewCell.swift */; };
-		089316AD25C3DDB80027FD2F /* CategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 089316AB25C3DDB80027FD2F /* CategoriesTableViewCell.xib */; };
 		089316B225C497430027FD2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089316B125C497430027FD2F /* ViewController.swift */; };
-		08931A6025C5F1440027FD2F /* FlashcardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08931A5E25C5F1440027FD2F /* FlashcardsCollectionViewCell.swift */; };
-		08931A6125C5F1440027FD2F /* FlashcardsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08931A5F25C5F1440027FD2F /* FlashcardsCollectionViewCell.xib */; };
 		08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531325B63DFF00E8E778 /* AppDelegate.swift */; };
 		08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA531525B63DFF00E8E778 /* SceneDelegate.swift */; };
 		08CA531B25B63DFF00E8E778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531925B63DFF00E8E778 /* Main.storyboard */; };
-		08CA531D25B63E0000E8E778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531C25B63E0000E8E778 /* Assets.xcassets */; };
 		08CA532025B63E0000E8E778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CA531E25B63E0000E8E778 /* LaunchScreen.storyboard */; };
 		08CA534925B644B500E8E778 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA534825B644B500E8E778 /* Constants.swift */; };
-		08CA535E25B6792500E8E778 /* FlashcardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA535D25B6792500E8E778 /* FlashcardsViewController.swift */; };
+		08CA535E25B6792500E8E778 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA535D25B6792500E8E778 /* LearnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0820DA1B25BAB169006758BE /* RowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItem.swift; sourceTree = "<group>"; };
 		0820DA4325BCFFD6006758BE /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
-		08777DFD25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/ReusableTableViewCell.swift; sourceTree = "<group>"; };
-		08777DFF25BF4FBD00E2725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReusableTableViewCell.xib; sourceTree = "<group>"; };
-		08777E0625BF5E3900E2725B /* VocabularyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyViewController.swift; sourceTree = "<group>"; };
+		0837BAAE25CE5FC7004E9A44 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		0837BAAF25CE5FC7004E9A44 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		0837BAB125CE5FD8004E9A44 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		0837BABB25CE627A004E9A44 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0837BAC525CE77E1004E9A44 /* LearnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewCell.swift; sourceTree = "<group>"; };
+		0837BAC625CE77E1004E9A44 /* LearnTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LearnTableViewCell.xib; sourceTree = "<group>"; };
+		0837BACA25CE7BA9004E9A44 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		0837BACB25CE7BA9004E9A44 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		0837BAD125CE96A3004E9A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0837BAD425CFD13B004E9A44 /* FlashcardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsViewController.swift; sourceTree = "<group>"; };
+		08777E0625BF5E3900E2725B /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		08777E0A25BF71B100E2725B /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
 		08777E0B25BF71B100E2725B /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
-		08777E1025BF73CA00E2725B /* SubDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubDataViewController.swift; sourceTree = "<group>"; };
 		0891C2FD25C8B4B000A002BB /* numbersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numbersData.json; sourceTree = "<group>"; };
 		0891C2FE25C8B4B000A002BB /* flashcardsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flashcardsData.json; sourceTree = "<group>"; };
 		0891C30125C8B4B000A002BB /* bist o se.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bist o se.m4a"; sourceTree = "<group>"; };
@@ -252,22 +262,18 @@
 		0891C3D325C8B5EE00A002BB /* verbsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = verbsData.json; sourceTree = "<group>"; };
 		0891C3D825C8B5F300A002BB /* monthsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monthsData.json; sourceTree = "<group>"; };
 		0891C3DB25CA12E800A002BB /* ExpandableSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableSections.swift; sourceTree = "<group>"; };
+		0891C3DF25CB2A3F00A002BB /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		089316A025C3CB7A0027FD2F /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		089316A625C3CE120027FD2F /* FlashcardsDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsDataLoader.swift; sourceTree = "<group>"; };
-		089316AA25C3DDB80027FD2F /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
-		089316AB25C3DDB80027FD2F /* CategoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesTableViewCell.xib; sourceTree = "<group>"; };
 		089316B125C497430027FD2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08931A5E25C5F1440027FD2F /* FlashcardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsCollectionViewCell.swift; sourceTree = "<group>"; };
-		08931A5F25C5F1440027FD2F /* FlashcardsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlashcardsCollectionViewCell.xib; sourceTree = "<group>"; };
 		08CA531025B63DFF00E8E778 /* learnDari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnDari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA531325B63DFF00E8E778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA531525B63DFF00E8E778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		08CA531A25B63DFF00E8E778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		08CA531C25B63E0000E8E778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08CA531F25B63E0000E8E778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08CA532125B63E0000E8E778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08CA534825B644B500E8E778 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		08CA535D25B6792500E8E778 /* FlashcardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsViewController.swift; sourceTree = "<group>"; };
+		08CA535D25B6792500E8E778 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +287,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0837BAAD25CE5FA4004E9A44 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0837BAB125CE5FD8004E9A44 /* ProximaNova-Regular.otf */,
+				0837BAAE25CE5FC7004E9A44 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+				0837BAAF25CE5FC7004E9A44 /* PlayfairDisplay-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		0891C2FC25C8B4B000A002BB /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,12 +482,13 @@
 				08CA532925B63E2100E8E778 /* View */,
 				08CA532A25B63E2600E8E778 /* Controller */,
 				0891C2FC25C8B4B000A002BB /* Data */,
-				08CA531C25B63E0000E8E778 /* Assets.xcassets */,
+				0837BAD125CE96A3004E9A44 /* Assets.xcassets */,
 				08CA531E25B63E0000E8E778 /* LaunchScreen.storyboard */,
 				089316A625C3CE120027FD2F /* FlashcardsDataLoader.swift */,
 				0820DA4325BCFFD6006758BE /* DataLoader.swift */,
 				08CA534825B644B500E8E778 /* Constants.swift */,
 				08CA532125B63E0000E8E778 /* Info.plist */,
+				0837BAAD25CE5FA4004E9A44 /* Fonts */,
 			);
 			path = learnDari;
 			sourceTree = "<group>";
@@ -490,14 +507,12 @@
 			isa = PBXGroup;
 			children = (
 				08CA531925B63DFF00E8E778 /* Main.storyboard */,
-				08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */,
-				08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */,
 				08777E0A25BF71B100E2725B /* DataTableViewCell.swift */,
 				08777E0B25BF71B100E2725B /* DataTableViewCell.xib */,
-				089316AA25C3DDB80027FD2F /* CategoriesTableViewCell.swift */,
-				089316AB25C3DDB80027FD2F /* CategoriesTableViewCell.xib */,
-				08931A5E25C5F1440027FD2F /* FlashcardsCollectionViewCell.swift */,
-				08931A5F25C5F1440027FD2F /* FlashcardsCollectionViewCell.xib */,
+				0837BAC525CE77E1004E9A44 /* LearnTableViewCell.swift */,
+				0837BAC625CE77E1004E9A44 /* LearnTableViewCell.xib */,
+				0837BACA25CE7BA9004E9A44 /* CategoryCollectionViewCell.swift */,
+				0837BACB25CE7BA9004E9A44 /* CategoryCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -505,10 +520,12 @@
 		08CA532A25B63E2600E8E778 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				08CA535D25B6792500E8E778 /* FlashcardsViewController.swift */,
-				08777E0625BF5E3900E2725B /* VocabularyViewController.swift */,
-				08777E1025BF73CA00E2725B /* SubDataViewController.swift */,
+				08CA535D25B6792500E8E778 /* LearnViewController.swift */,
+				08777E0625BF5E3900E2725B /* DictionaryViewController.swift */,
+				0891C3DF25CB2A3F00A002BB /* PracticeViewController.swift */,
+				0837BAD425CFD13B004E9A44 /* FlashcardsViewController.swift */,
 				089316B125C497430027FD2F /* ViewController.swift */,
+				0837BABB25CE627A004E9A44 /* InfoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -592,14 +609,14 @@
 				0891C3B725C8B4B100A002BB /* zuwaat.m4a in Resources */,
 				0891C39D25C8B4B100A002BB /* qaaf.m4a in Resources */,
 				0891C3AE25C8B4B100A002BB /* sheen.m4a in Resources */,
+				0837BAD225CE96A3004E9A44 /* Assets.xcassets in Resources */,
 				0891C39425C8B4B000A002BB /* Az kaja hasted?.m4a in Resources */,
+				0837BAC825CE77E1004E9A44 /* LearnTableViewCell.xib in Resources */,
 				0891C37225C8B4B000A002BB /* shanzdah.m4a in Resources */,
 				0891C3B625C8B4B100A002BB /* jeem.m4a in Resources */,
 				0891C3B925C8B4B100A002BB /* shuma.m4a in Resources */,
-				089316AD25C3DDB80027FD2F /* CategoriesTableViewCell.xib in Resources */,
 				0891C3B525C8B4B100A002BB /* yaa.m4a in Resources */,
 				0891C3C625C8B4B100A002BB /* daysData.json in Resources */,
-				08931A6125C5F1440027FD2F /* FlashcardsCollectionViewCell.xib in Resources */,
 				0891C37525C8B4B000A002BB /* yak.m4a in Resources */,
 				0891C38A25C8B4B000A002BB /* panzdah.m4a in Resources */,
 				08CA532025B63E0000E8E778 /* LaunchScreen.storyboard in Resources */,
@@ -613,9 +630,11 @@
 				0891C39625C8B4B000A002BB /* Chetor asten?.m4a in Resources */,
 				0891C3A125C8B4B100A002BB /* zay.m4a in Resources */,
 				0891C38025C8B4B000A002BB /* shast.m4a in Resources */,
+				0837BACD25CE7BA9004E9A44 /* CategoryCollectionViewCell.xib in Resources */,
 				0891C37725C8B4B000A002BB /* nozdah.m4a in Resources */,
 				0891C3BE25C8B4B100A002BB /* juma.m4a in Resources */,
 				0891C3A225C8B4B100A002BB /* khay.m4a in Resources */,
+				0837BAB625CE6002004E9A44 /* ProximaNova-Regular.otf in Resources */,
 				0891C3C425C8B4B100A002BB /* panjshanbeh.m4a in Resources */,
 				0891C37F25C8B4B000A002BB /* bist o chahar.m4a in Resources */,
 				0891C39525C8B4B000A002BB /* Chast bakhir.m4a in Resources */,
@@ -637,9 +656,9 @@
 				0891C37A25C8B4B000A002BB /* chahardah.m4a in Resources */,
 				0891C3AD25C8B4B100A002BB /* pay.m4a in Resources */,
 				0891C36E25C8B4B000A002BB /* bist o yak.m4a in Resources */,
-				08777E0125BF4FBD00E2725B /* ReusableTableViewCell.xib in Resources */,
 				0891C3D525C8B5EE00A002BB /* tellingtimeData.json in Resources */,
 				0891C38925C8B4B000A002BB /* yazdeh.m4a in Resources */,
+				0837BAB425CE6000004E9A44 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
 				0891C3C525C8B4B100A002BB /* alphabetData.json in Resources */,
 				0891C3AA25C8B4B100A002BB /* hay2.m4a in Resources */,
 				0891C3C325C8B4B100A002BB /* seshanbeh.m4a in Resources */,
@@ -652,6 +671,7 @@
 				0891C3AC25C8B4B100A002BB /* zoy.m4a in Resources */,
 				0891C37B25C8B4B000A002BB /* bist o shash.m4a in Resources */,
 				0891C36725C8B4B000A002BB /* flashcardsData.json in Resources */,
+				0837BAB225CE5FFE004E9A44 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
 				0891C3AB25C8B4B100A002BB /* thay.m4a in Resources */,
 				08777E0D25BF71B100E2725B /* DataTableViewCell.xib in Resources */,
 				0891C3C025C8B4B100A002BB /* charshanbeh.m4a in Resources */,
@@ -669,7 +689,6 @@
 				0891C39B25C8B4B000A002BB /* gaaf.m4a in Resources */,
 				0891C3BB25C8B4B100A002BB /* man.m4a in Resources */,
 				0891C37D25C8B4B000A002BB /* bist.m4a in Resources */,
-				08CA531D25B63E0000E8E778 /* Assets.xcassets in Resources */,
 				0891C3B025C8B4B100A002BB /* zhay.m4a in Resources */,
 				0891C39225C8B4B000A002BB /* Tashakor.m4a in Resources */,
 				0891C36625C8B4B000A002BB /* numbersData.json in Resources */,
@@ -692,19 +711,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0837BACC25CE7BA9004E9A44 /* CategoryCollectionViewCell.swift in Sources */,
 				08CA531425B63DFF00E8E778 /* AppDelegate.swift in Sources */,
-				08CA535E25B6792500E8E778 /* FlashcardsViewController.swift in Sources */,
-				08777E0725BF5E3900E2725B /* VocabularyViewController.swift in Sources */,
+				08CA535E25B6792500E8E778 /* LearnViewController.swift in Sources */,
+				0891C3E025CB2A3F00A002BB /* PracticeViewController.swift in Sources */,
+				0837BAD525CFD13B004E9A44 /* FlashcardsViewController.swift in Sources */,
+				08777E0725BF5E3900E2725B /* DictionaryViewController.swift in Sources */,
 				08CA531625B63DFF00E8E778 /* SceneDelegate.swift in Sources */,
-				08777E1125BF73CA00E2725B /* SubDataViewController.swift in Sources */,
-				089316AC25C3DDB80027FD2F /* CategoriesTableViewCell.swift in Sources */,
 				08CA534925B644B500E8E778 /* Constants.swift in Sources */,
 				0820DA4425BCFFD6006758BE /* DataLoader.swift in Sources */,
+				0837BABC25CE627A004E9A44 /* InfoViewController.swift in Sources */,
 				08777E0C25BF71B100E2725B /* DataTableViewCell.swift in Sources */,
+				0837BAC725CE77E1004E9A44 /* LearnTableViewCell.swift in Sources */,
 				089316B225C497430027FD2F /* ViewController.swift in Sources */,
-				08931A6025C5F1440027FD2F /* FlashcardsCollectionViewCell.swift in Sources */,
 				089316A725C3CE120027FD2F /* FlashcardsDataLoader.swift in Sources */,
-				08777E0025BF4FBD00E2725B /* ReusableTableViewCell.swift in Sources */,
 				089316A125C3CB7A0027FD2F /* CategoryItem.swift in Sources */,
 				0820DA1C25BAB169006758BE /* RowItem.swift in Sources */,
 				0891C3DC25CA12E800A002BB /* ExpandableSections.swift in Sources */,
@@ -714,22 +734,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		08777DFC25BF4FBD00E2725B /* ReusableTableViewCell.swift */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08777DFD25BF4FBD00E2725B /* Base */,
-			);
-			name = ReusableTableViewCell.swift;
-			sourceTree = "<group>";
-		};
-		08777DFE25BF4FBD00E2725B /* ReusableTableViewCell.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08777DFF25BF4FBD00E2725B /* Base */,
-			);
-			name = ReusableTableViewCell.xib;
-			sourceTree = "<group>";
-		};
 		08CA531925B63DFF00E8E778 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

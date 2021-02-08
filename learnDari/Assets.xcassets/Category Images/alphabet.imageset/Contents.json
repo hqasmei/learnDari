@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "alphabet.png",
+      "filename" : "priscilla-du-preez-nF8xhLMmg0c-unsplash.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "alphabet@2x.png",
+      "filename" : "priscilla-du-preez-nF8xhLMmg0c-unsplash@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "alphabet@3x.png",
+      "filename" : "priscilla-du-preez-nF8xhLMmg0c-unsplash@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

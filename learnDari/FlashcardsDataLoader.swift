@@ -9,20 +9,20 @@ import Foundation
 
 public class FlashcardsDataLoader {
     
-    @Published var flashcardsData = [CategoryItem]()
+    @Published var learnData = [CategoryItem]()
     
     init() {
         load()
     }
     
     func load(){
-        if let fileLocation = Bundle.main.url(forResource: K.flashcardsJsonFile, withExtension: K.extName){
+        if let fileLocation = Bundle.main.url(forResource: K.learnJsonFile, withExtension: K.extName){
             // do catch in case of error
             do{
                 let data         = try Data(contentsOf: fileLocation)
                 let jsonDecoder  = JSONDecoder()
                 let dataFromJson = try jsonDecoder.decode([CategoryItem].self, from: data)
-                self.flashcardsData     = dataFromJson
+                self.learnData   = dataFromJson
                 
             }
             catch{

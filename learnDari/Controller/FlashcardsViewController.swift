@@ -1,67 +1,102 @@
 //
-//  MenuTableViewCell.swift
+//  FlashcardsViewController.swift
 //  learnDari
 //
-//  Created by Hosna Qasmei on 1/18/21.
+//  Created by Hosna Qasmei on 2/6/21.
 //
 
 import UIKit
+import AVFoundation
 
-class FlashcardsViewController: UIViewController{
-    
-    @IBOutlet weak var tableView: UITableView!
-    
-    var flashcards: [CategoryItem?]      = []
-    var rowSelected : String = ""
-    
+class FlashcardsViewController: UIViewController {
+
+  
+    @IBOutlet weak var flashcardImage: UIImageView!
+    @IBOutlet weak var wordImage: UIImageView!
+    @IBOutlet weak var soundButton: UIButton!
+    @IBOutlet weak var flashcardImagePressed: UIButton!
+    @IBOutlet weak var dariLabel: UILabel!
+    @IBOutlet weak var englishLabel: UILabel!
+    var player : AVAudioPlayer!
+    var pressed: Bool = false
+    var index: Int    = 0
+    var cards: [RowItem]      = []
+    var rowSelected = ""
+    let qState = UIImage(named: "flashcard_Rectangle_tap")
+    let aState = UIImage(named: "flashcard_Rectangle")
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = K.flashcards
-        let data = FlashcardsDataLoader().flashcardsData
-
-        for i in 0..<data.count{
-            flashcards.append(CategoryItem(category: data[i].category, flashcards: data[i].flashcards, images: data[i].images))
+        flashcardImage.addSubview(wordImage)
+        
+        cards = DataLoader(rowSelected: self.rowSelected).items
+        dariLabel.font    = UIFont(name: K.proximaNovaRegular, size: 28)
+        dariLabel.text    = cards[index].dari
+        englishLabel.font = UIFont(name: K.proximaNovaRegular, size: 28)
+        englishLabel.text = cards[index].english
+        wordImage.image   = UIImage(named: cards[index].image)
+        
+        flashcardImage.image  = UIImage(named: "flashcard_Rectangle_tap")
+        pressed               = false
+        soundButton.isHidden  = true
+        dariLabel.isHidden    = false
+        englishLabel.isHidden = true
+        
+    }
+    
+    @IBAction func flashcardImagePressed(_ sender: UIButton) {
+        pressed = !pressed
+        
+        if pressed{
+            flashcardImage.image = aState
+            soundButton.isHidden = false
+            englishLabel.isHidden   = false
         }
-        
-        tableView.delegate   = self
-        tableView.dataSource = self
-        tableView.register(UINib(nibName: K.categoriesTableViewIdentifier, bundle: nil), forCellReuseIdentifier: K.categoriesCellIdentifier)
+        else{
+            flashcardImage.image = qState
+            soundButton.isHidden = true
+            englishLabel.isHidden   = true
+        }
     }
-        
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    
+    @IBAction func nextButtonPressed(_ sender: UIButton) {
+        index = index + 1
+        if index > (cards.count)-1{
+            index = 0
+        }
+        dariLabel.text  = cards[index].dari
+        englishLabel.text    = cards[index].english
+        wordImage.image      = UIImage(named: cards[index].image)
+        flashcardImage.image = qState
+        soundButton.isHidden = true
+        englishLabel.isHidden = true
+        pressed = false
     }
+    
+    @IBAction func previousButtonPressed(_ sender: UIButton) {
+        index = index - 1
+        if index < 0 {
+            index = 0
+        }
+        dariLabel.text    = cards[index].dari
+        englishLabel.text = cards[index].english
+        wordImage.image   = UIImage(named: cards[index].image)
+        flashcardImage.image  = qState
+        soundButton.isHidden = true
+        englishLabel.isHidden = true
+        pressed = false
+    }
+    
+    @IBAction func soundButtonPressed(_ sender: UIButton) {
+        if cards[index].sound != ""{
+            playSound(sound: cards[index].sound)
+        }
+    }
+    
+    func playSound(sound: String) {
+        let url = Bundle.main.url(forResource: sound, withExtension: "m4a")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
+    }
+
 }
-
-
-extension FlashcardsViewController: UITableViewDelegate, UITableViewDataSource{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return flashcards.count
-    }
-
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier:  K.categoriesCellIdentifier, for: indexPath) as? CategoriesTableViewCell
-
-        cell!.CategoriesLabel.text = flashcards[indexPath.row]?.category
-        cell!.temp                 = flashcards[indexPath.row]
-
-        cell!.flashcardsViewController   = self
-        return cell!
-    }
-
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-        return 350
-    }
-
-    func showAppDetailForApp(flashcard: String){
-        self.rowSelected = flashcard
-        performSegue(withIdentifier: K.flashcardsToViewSegue, sender: self)
-    }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc         = segue.destination as! ViewController
-        vc.rowSelected = self.rowSelected
-    }
-
-}
-
