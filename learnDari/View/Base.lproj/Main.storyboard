@@ -241,7 +241,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <searchBar contentMode="redraw" id="JHC-hT-Rul">
-                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                <rect key="frame" x="1" y="88" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -257,7 +257,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="qab-Ho-BzZ"/>
                     <connections>
-                        <outlet property="searchBar" destination="JHC-hT-Rul" id="SBk-5A-R9k"/>
+                        <outlet property="searchBar" destination="JHC-hT-Rul" id="uCn-eS-ma7"/>
                         <outlet property="tableView" destination="2l4-TO-Sq0" id="Oqj-sq-KvG"/>
                     </connections>
                 </viewController>

@@ -6,12 +6,13 @@
 //
 import UIKit
 
-class DictionaryViewController: UIViewController{
+class DictionaryViewController: UIViewController, UISearchBarDelegate{
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     
     var expandableSections: [ExpandableSections] = []
+    var filteredData: [ExpandableSections]!
     
     var dariLabel: String = ""
     var englishLabel: String = ""
@@ -33,7 +34,10 @@ class DictionaryViewController: UIViewController{
         // you can have additional code here
         return lhs.section < rhs.section
        }
-        
+    
+       filteredData = expandableSections
+     
+       searchBar.delegate = self
        tableView.delegate = self
        tableView.dataSource = self
        tableView.register(UINib(nibName: K.dataTableViewIdentifier, bundle: nil), forCellReuseIdentifier: K.dataCellIdentifier)
@@ -46,6 +50,29 @@ class DictionaryViewController: UIViewController{
           self.tableView.deselectRow(at: selectionIndexPath, animated: animated)
         }
     }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
+        filteredData = []
+        
+        if searchText == "" {
+            filteredData = expandableSections
+        }
+        else{
+            for expandableSection in expandableSections{
+                var tempArr: [RowItem] = []
+                for item in expandableSection.items{
+                    if item.english.lowercased().contains(searchText.lowercased()){
+                        tempArr.append(item)
+                    }
+                }
+                if tempArr.count > 0{
+                    let section = ExpandableSections(isExpanded: expandableSection.isExpanded, section: expandableSection.section, items: tempArr)
+                    filteredData.append(section)
+                }
+            }
+        }
+        self.tableView.reloadData()
+    }
 }
     
 
@@ -53,7 +80,7 @@ extension DictionaryViewController: UITableViewDataSource, UITableViewDelegate{
     
     // HEADER
     func numberOfSections(in tableView: UITableView) -> Int {
-        return expandableSections.count
+        return filteredData.count
     }
 
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -61,7 +88,7 @@ extension DictionaryViewController: UITableViewDataSource, UITableViewDelegate{
     }
 
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return self.expandableSections[section].section.uppercased()
+        return self.filteredData[section].section.uppercased()
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -81,13 +108,13 @@ extension DictionaryViewController: UITableViewDataSource, UITableViewDelegate{
 
     // ROWS
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.expandableSections[section].items.count
+        return self.filteredData[section].items.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        let cell = tableView.dequeueReusableCell(withIdentifier:  K.dataCellIdentifier, for: indexPath) as! DataTableViewCell
-       cell.dari.text      = expandableSections[indexPath.section].items[indexPath.row].dari
-       cell.english.text    = expandableSections[indexPath.section].items[indexPath.row].english
+       cell.dari.text      = filteredData[indexPath.section].items[indexPath.row].dari
+       cell.english.text   = filteredData[indexPath.section].items[indexPath.row].english
        return cell
     }
 

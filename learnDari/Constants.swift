@@ -51,11 +51,8 @@ struct K {
     // ======================================================================
     // Sections
     static let sectionData: [String:String] = [ "Greetings"   :"greetingsData",
-                                                "Pronouns"    :"pronounsData",
                                                 "Days"        :"daysData",
-                                                "Alphabet"    :"alphabetData",
-                                                "Numbers"     :"numbersData",
-                                                "Essential Phrases 01":"greetingsData"
+                                                "Numbers"     :"numbersData"
     ]
     
 //[ "Greetings"   :"greetingsData",
