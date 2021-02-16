@@ -18,7 +18,10 @@
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="YcQ-OJ-KNf">
                         <rect key="frame" x="15" y="65" width="845" height="309"/>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.94117647058823528" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="309" id="8qa-eu-8ZL"/>
+                        </constraints>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="68p-Gs-bIt">
                             <size key="itemSize" width="128" height="128"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -33,7 +36,6 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" red="0.96470588235294119" green="0.94117647058823528" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
                 <constraints>
                     <constraint firstItem="YcQ-OJ-KNf" firstAttribute="top" secondItem="EE1-9Z-J7e" secondAttribute="bottom" constant="19" id="1Qj-fY-Mlx"/>
                     <constraint firstItem="EE1-9Z-J7e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="QnO-hD-soO"/>
@@ -48,6 +50,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="collectionView" destination="YcQ-OJ-KNf" id="Uhy-jU-XEJ"/>
+                <outlet property="collectionViewHeight" destination="8qa-eu-8ZL" id="64Z-WD-f7E"/>
                 <outlet property="label" destination="EE1-9Z-J7e" id="zeP-C3-NQD"/>
             </connections>
             <point key="canvasLocation" x="474.63768115942031" y="229.35267857142856"/>

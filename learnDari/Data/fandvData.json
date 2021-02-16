@@ -1,0 +1,76 @@
+[
+    {
+        "dari"    : "sayb",
+        "english" : "apple",
+        "image"   : "sayb",
+        "sound"   : "sayb"
+    },
+    
+    {
+        "dari"    : "caylah",
+        "english" : "banana",
+        "image"   : "caylah",
+        "sound"   : "caylah"
+    },
+    
+    {
+        "dari"    : "toot zameeni",
+        "english" : "strawberry",
+        "image"   : "toot zameeni",
+        "sound"   : "toot zameeni"
+    },
+    
+    {
+        "dari"    : "angoor",
+        "english" : "grapes",
+        "image"   : "angoor",
+        "sound"   : "angoor"
+    },
+    
+    {
+        "dari"    : "knock",
+        "english" : "pear",
+        "image"   : "knock",
+        "sound"   : "knock"
+    },
+    
+    
+    {
+        "dari"    : "tarbooz",
+        "english" : "watermelon",
+        "image"   : "tarbooz",
+        "sound"   : "tarbooz"
+    },
+    
+    {
+        "dari"    : "kharboozah",
+        "english" : "cantaloupe",
+        "image"   : "kharboozah",
+        "sound"   : "kharboozah"
+    },
+    
+    {
+        "dari"    : "malta",
+        "english" : "orange",
+        "image"   : "malta",
+        "sound"   : "malta"
+    },
+    
+    
+    {
+        "dari"    : "peeehoz",
+        "english" : "onion",
+        "image"   : "peeehoz",
+        "sound"   : "peeehoz"
+    },
+    
+    
+    
+    {
+        "dari"    : "cawoo",
+        "english" : "lettuce",
+        "image"   : "cawoo",
+        "sound"   : "cawoo"
+    }
+    
+]

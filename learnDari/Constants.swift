@@ -50,23 +50,22 @@ struct K {
     
     // ======================================================================
     // Sections
-    static let sectionData: [String:String] = [ "Days"        :"daysData",
-                                                "Numbers"     :"numbersData",
-                                                "Essential Phrases 01":"greetingsData"
+    static let sectionData: [String:String] = [
+        "Alphabet"             : "alphabetData",
+        "Numbers"              : "numbersData",
+        "Essential Phrases 01" : "es01Data",
+        "Essential Phrases 02" : "es02Data",
+        "Verbs 01"             : "verbs01Data",
+        "Verbs 02"             : "verbs02Data",
+        "Fruits & Vegetables"  : "fandvData",
+        "Animals"              : "animalsData",
+        "Colors"               : "colorsData"
                                                 ]
+
     
-//[ "Greetings"   :"greetingsData",
-//"Age"         :"ageData",
-//"Occupations" :"occupationsData",
-//"Pronouns"    :"pronounsData",
-//"Nouns"       :"nounsData",
-//"Verbs"       :"verbsData",
-//"Telling Time":"tellingtimeData",
-//"Days"        :"daysData",
-//"Months"      :"monthsData",
-//"Alphabet"    :"alphabetData",
-//"Numbers"     :"numbersData"
-//]
+    
+    
+    
     // ======================================================================
     // Other
     static let proximaNovaRegular         = "ProximaNova-Regular"

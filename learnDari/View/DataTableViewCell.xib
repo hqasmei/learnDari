@@ -17,34 +17,33 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0f-zF-Fby">
-                        <rect key="frame" x="170" y="10" width="135" height="24"/>
+                        <rect key="frame" x="263.5" y="10" width="41.5" height="24"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmj-3j-Jma">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3J-iQ-DOn">
                         <rect key="frame" x="20" y="10" width="145" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="145" id="Npz-d6-Z6f"/>
+                            <constraint firstAttribute="width" constant="145" id="1ne-oy-gui"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                        <connections>
+                            <action selector="didTapButton" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gDa-tQ-50i"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Fmj-3j-Jma" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="15I-GU-yRO"/>
+                    <constraint firstItem="F3J-iQ-DOn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="2of-6F-HV9"/>
                     <constraint firstItem="I0f-zF-Fby" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="7En-qH-6k1"/>
-                    <constraint firstItem="I0f-zF-Fby" firstAttribute="leading" secondItem="Fmj-3j-Jma" secondAttribute="trailing" constant="5" id="Qpn-4a-fv1"/>
-                    <constraint firstItem="Fmj-3j-Jma" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="RXU-sG-mG7"/>
+                    <constraint firstItem="F3J-iQ-DOn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="EFn-Wf-Zba"/>
                     <constraint firstAttribute="bottom" secondItem="I0f-zF-Fby" secondAttribute="bottom" constant="10" id="deU-Uo-aEk"/>
                     <constraint firstAttribute="trailing" secondItem="I0f-zF-Fby" secondAttribute="trailing" constant="15" id="h5o-Tv-vJk"/>
-                    <constraint firstAttribute="bottom" secondItem="Fmj-3j-Jma" secondAttribute="bottom" constant="10" id="mHr-Gn-XHN"/>
+                    <constraint firstAttribute="bottom" secondItem="F3J-iQ-DOn" secondAttribute="bottom" constant="10" id="hh3-ku-1Yi"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="dari" destination="Fmj-3j-Jma" id="Tw5-bc-9a5"/>
+                <outlet property="dari" destination="F3J-iQ-DOn" id="mes-X3-jSZ"/>
                 <outlet property="english" destination="I0f-zF-Fby" id="qaa-gf-JBt"/>
             </connections>
             <point key="canvasLocation" x="131.8840579710145" y="129.91071428571428"/>

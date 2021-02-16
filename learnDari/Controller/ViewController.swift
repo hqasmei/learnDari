@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var flashcardImage: UIImageView!
     @IBOutlet weak var flashcardButton: UIButton!
+    var player : AVAudioPlayer!
     
     var rowSelected = ""
     var index: Int = 0
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
         for i in 0..<data.count{
             cards.append(RowItem(dari: data[i].dari, english:  data[i].english, image:  data[i].image, sound:  data[i].sound))
         }
-        flashcardImage.image = UIImage(named: "flashcards")
+        flashcardImage.image = UIImage(named: "start")
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: K.dataTableViewIdentifier, bundle: nil), forCellReuseIdentifier: K.dataCellIdentifier)
@@ -80,9 +81,27 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate{
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        let cell = tableView.dequeueReusableCell(withIdentifier:  K.dataCellIdentifier, for: indexPath) as! DataTableViewCell
-       cell.dari.text      = cards[indexPath.row].dari
+        
+       cell.configure(with: cards[indexPath.row].dari)
        cell.english.text   = cards[indexPath.row].english
+       cell.delegate = self
+        
        return cell
     }
 
+}
+
+extension ViewController: MyTableViewCellDelegate{
+    func didTapButton(with title: String) {
+        if title != ""{
+            playSound(sound: title)
+        }
+    }
+    
+    func playSound(sound: String) {
+        
+        let url = Bundle.main.url(forResource: sound, withExtension: "m4a")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
+    }
 }

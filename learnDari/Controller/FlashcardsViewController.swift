@@ -11,6 +11,8 @@ import AVFoundation
 class FlashcardsViewController: UIViewController {
 
   
+  
+    @IBOutlet weak var barButton: UIButton!
     @IBOutlet weak var flashcardImage: UIImageView!
     @IBOutlet weak var wordImage: UIImageView!
     @IBOutlet weak var soundButton: UIButton!
@@ -21,29 +23,54 @@ class FlashcardsViewController: UIViewController {
     var pressed: Bool = false
     var index: Int    = 0
     var cards: [RowItem]      = []
+    var orderedCards: [RowItem]      = []
+    var shuffledCards: [RowItem]      = []
     var rowSelected = ""
     let qState = UIImage(named: "flashcard_Rectangle_tap")
     let aState = UIImage(named: "flashcard_Rectangle")
  
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        AppUtility.lockOrientation(.portrait)
+        // Or to rotate and lock
+        // AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
+        
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Don't forget to reset when view is being removed
+        AppUtility.lockOrientation(.all)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         flashcardImage.addSubview(wordImage)
-        
-        cards = DataLoader(rowSelected: self.rowSelected).items
+        orderedCards = DataLoader(rowSelected: self.rowSelected).items
+        shuffledCards = orderedCards
+        cards = orderedCards
+        restart(deck: orderedCards)
+    }
+    
+    
+    
+    func restart(deck: [RowItem]){
         dariLabel.font    = UIFont(name: K.proximaNovaRegular, size: 24)
-        dariLabel.text    = cards[index].dari
+        dariLabel.text    = deck[index].dari
         englishLabel.font = UIFont(name: K.proximaNovaRegular, size: 24)
-        englishLabel.text = cards[index].english
-        wordImage.image   = UIImage(named: cards[index].image)
+        englishLabel.text = deck[index].english
+        wordImage.image   = UIImage(named: deck[index].image)
         
         flashcardImage.image  = UIImage(named: "flashcard_Rectangle_tap")
         pressed               = false
         soundButton.isHidden  = true
         dariLabel.isHidden    = false
         englishLabel.isHidden = true
-        
     }
-    
     
     
     @IBAction func flashcardImagePressed(_ sender: UIButton) {
@@ -96,9 +123,27 @@ class FlashcardsViewController: UIViewController {
     }
     
     func playSound(sound: String) {
+        
         let url = Bundle.main.url(forResource: sound, withExtension: "m4a")
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
     }
+    
+   
+    @IBAction func barButtonPressed(_ sender: UIButton) {
+        let state = barButton.title(for: .normal)!
+        
+        if  state == "Shuffle"{
+            cards = shuffledCards.shuffled()
+            barButton.setTitle("Ordered", for: .normal)
+        }
+        else if state == "Ordered"{
+            cards = orderedCards
+            barButton.setTitle("Shuffle", for: .normal)
+        }
+        restart(deck: cards)
+    }
 
+    
+    
 }

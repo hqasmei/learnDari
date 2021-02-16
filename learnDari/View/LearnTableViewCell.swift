@@ -12,12 +12,14 @@ class LearnTableViewCell: UITableViewCell {
     var learnViewController: LearnViewController?
     var categoryItem: CategoryItem?
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionViewHeight: NSLayoutConstraint!
     @IBOutlet weak var label: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
+        collectionViewHeight.constant = 20
         collectionView.delegate   = self
         collectionView.dataSource = self
         collectionView.register(UINib(nibName: K.categoryCollectionViewIdentifier, bundle: nil), forCellWithReuseIdentifier: K.categoryCellIdentifier)
@@ -34,7 +36,6 @@ class LearnTableViewCell: UITableViewCell {
 extension LearnTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         let cards = (categoryItem?.flashcards.count)!
-
         return cards
     }
 
@@ -50,13 +51,16 @@ extension LearnTableViewCell: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, layout colectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
-            return CGSize(width: 190, height: 110)
-        }
+        return CGSize(width: 190, height: 110)
+    }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-          let currentCell = collectionView.cellForItem(at: indexPath)! as! CategoryCollectionViewCell
-          let flashcard   = currentCell.cardName
-          learnViewController?.showAppDetailForApp(flashcard: flashcard)
-      }
-
-
+        let currentCell = collectionView.cellForItem(at: indexPath)! as! CategoryCollectionViewCell
+        let flashcard   = currentCell.cardName
+        learnViewController?.showAppDetailForApp(flashcard: flashcard)
+    }
+    
+    
+    
+    
 }

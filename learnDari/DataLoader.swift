@@ -48,6 +48,7 @@ public class DataLoader {
         }
         return temp
     }
+    
 
     func itemsArr() -> [RowItem]{
         let data = self.appData

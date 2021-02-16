@@ -5,6 +5,7 @@
 //  Created by Hosna Qasmei on 1/25/21.
 //
 import UIKit
+import AVFoundation
 
 class DictionaryViewController: UIViewController, UISearchBarDelegate{
 
@@ -13,7 +14,7 @@ class DictionaryViewController: UIViewController, UISearchBarDelegate{
     
     var expandableSections: [ExpandableSections] = []
     var filteredData: [ExpandableSections]!
-    
+    var player : AVAudioPlayer!
     var dariLabel: String = ""
     var englishLabel: String = ""
     var image: String = ""
@@ -117,9 +118,25 @@ extension DictionaryViewController: UITableViewDataSource, UITableViewDelegate{
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        let cell = tableView.dequeueReusableCell(withIdentifier:  K.dataCellIdentifier, for: indexPath) as! DataTableViewCell
-       cell.dari.text      = filteredData[indexPath.section].items[indexPath.row].dari
+       cell.configure(with: filteredData[indexPath.section].items[indexPath.row].dari)
        cell.english.text   = filteredData[indexPath.section].items[indexPath.row].english
+       cell.delegate = self
        return cell
     }
 
+}
+
+extension DictionaryViewController: MyTableViewCellDelegate{
+    func didTapButton(with title: String) {
+        if title != ""{
+            playSound(sound: title)
+        }
+        
+    }
+    
+    func playSound(sound: String) {
+        let url = Bundle.main.url(forResource: sound, withExtension: "m4a")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
+    }
 }

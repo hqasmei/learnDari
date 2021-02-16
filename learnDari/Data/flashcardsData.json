@@ -7,8 +7,8 @@
     
     {
         "category"    : "Essential Phrases",
-        "flashcards"  : ["Essential Phrases 01", "Essential Phrases 02"],
-        "images"      : ["es01", "es02"]
+        "flashcards"  : ["Essential Phrases 01"],
+        "images"      : ["es01"]
     },
     
     {
@@ -17,12 +17,12 @@
         "images"      : ["v01", "v02"]
     },
     
+    
     {
         "category"    : "Nouns",
-        "flashcards"  : ["Fruits & Vegetables", "Animals"],
-        "images"      : ["fandv", "animals"]
+        "flashcards"  : ["Fruits & Vegetables", "Animals", "Colors"],
+        "images"      : ["fandv"              , "animals", "colors"]
     }
-    
     
 ]
 

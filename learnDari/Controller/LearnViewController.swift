@@ -23,7 +23,7 @@ class LearnViewController: UIViewController{
         self.title = K.learn
         
         let data = FlashcardsDataLoader().learnData
-
+        
         for i in 0..<data.count{
             categories.append(CategoryItem(category: data[i].category, flashcards: data[i].flashcards, images: data[i].images))
         }
@@ -31,7 +31,8 @@ class LearnViewController: UIViewController{
         tableView.delegate   = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: K.learnTableViewIdentifier, bundle: nil), forCellReuseIdentifier: K.learnCellIdentifier)
-        
+        tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 100
 //
 //
     }
@@ -55,17 +56,17 @@ extension LearnViewController: UITableViewDelegate, UITableViewDataSource{
         cell!.label.font    = UIFont(name: K.playfairDisplayRegularBold, size: 28)
         cell!.label.text    = categories[indexPath.row]?.category
         cell!.categoryItem  = categories[indexPath.row]
-
         cell!.learnViewController   = self
+        cell?.frame = tableView.bounds
+        cell?.layoutIfNeeded()
+        cell?.collectionView.reloadData()
+        cell?.collectionViewHeight.constant = (cell?.collectionView.collectionViewLayout.collectionViewContentSize.height)!
         return cell!
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-        
-        return 210
-//        return UITableView.automaticDimension
+        return UITableView.automaticDimension
     }
-    
 
     func showAppDetailForApp(flashcard: String){
         self.rowSelected = flashcard

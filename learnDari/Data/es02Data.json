@@ -1,0 +1,76 @@
+[
+    {
+        "dari"    : "Asalaam alaikum",
+        "english" : "Hello",
+        "image"   : "Asalaam alaikum",
+        "sound"   : "Asalaam alaikum"
+    },
+    
+    {
+        "dari"    : "Chetor asten?",
+        "english" : "How are you?",
+        "image"   : "Chetor asten?",
+        "sound"   : "Chetor asten?"
+    },
+    
+    {
+        "dari"    : "Khob astum",
+        "english" : "I am good",
+        "image"   : "Khob astum",
+        "sound"   : "Khob astum"
+    },
+    
+    {
+        "dari"    : "Tashakor",
+        "english" : "Thank you",
+        "image"   : "Tashakor",
+        "sound"   : "Tashakor"
+    },
+    
+    {
+        "dari"    : "Nametan cist?",
+        "english" : "What's your name?",
+        "image"   : "Nametan cist?",
+        "sound"   : "Nametan cist?"
+    },
+    
+    
+    {
+        "dari"    : "Az kaja hasted?",
+        "english" : "Where are you from?",
+        "image"   : "Az kaja hasted?",
+        "sound"   : "Az kaja hasted?"
+    },
+    
+    
+    {
+        "dari"    : "Sobh bakhir",
+        "english" : "Good morning",
+        "image"   : "Sobh bakhir",
+        "sound"   : "Sobh bakhir"
+    },
+    
+    {
+        "dari"    : "Chast bakhir",
+        "english" : "Good afternoon",
+        "image"   : "Chast bakhir",
+        "sound"   : "Chast bakhir"
+    },
+    
+    {
+        "dari"    : "Shab bakhir",
+        "english" : "Good evening",
+        "image"   : "Shab bakhir",
+        "sound"   : "Shab bakhir"
+    },
+    
+    {
+        "dari"    : "Khuda hafez",
+        "english" : "Goodbye",
+        "image"   : "Khuda hafez",
+        "sound"   : "Khuda hafez"
+    }
+    
+]
+ 
+
